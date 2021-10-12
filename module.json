@@ -1,0 +1,30 @@
+{
+  "name": "swade_zh_tw",
+  "title": "狂野世界（SWADE）正體中文",
+  "description": "為核心系统增加正體中文。",
+  "author": "Sass",
+  "authors": [],
+  "url": "https://github.com/FVTT-zh-TW/swade_zh_tw",
+  "flags": {},
+  "version": "0.8.6",
+  "minimumCoreVersion": "0.6.5",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "zh-TW",
+      "name": "正體中文",
+      "path": "./lang/zh-TW.json"
+    }
+  ],
+  "packs": [],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "coreTranslation": true
+}
