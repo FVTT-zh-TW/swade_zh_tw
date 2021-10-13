@@ -9,7 +9,9 @@
   "version": "0.8.6",
   "minimumCoreVersion": "0.6.5",
   "compatibleCoreVersion": "0.8.9",
-  "scripts": [],
+  "scripts": [
+    "./babele.js"
+  ],
   "esmodules": [],
   "styles": [],
   "languages": [
@@ -21,7 +23,12 @@
   ],
   "packs": [],
   "system": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "babele",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+    }
+  ],
   "socket": false,
   "manifest": "",
   "download": "",
