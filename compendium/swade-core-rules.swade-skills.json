@@ -1,0 +1,141 @@
+{
+	"label": "SWADE Skills",
+	"entries": {
+		"#[CF_tempEntity]": {
+			"name": "#[CF_tempEntity]",
+			"description": ""
+		},
+		"Academics": {
+			"name": "人文",
+			"description": "<div class=\"swade-core\"> <p>人文象徵著人文學科，社會科學，文學，歷史，考古學等相似領域。如果角色想去回憶瑪雅日曆結束時間或是背誦麥克白的某段台詞，這就是需要的技能。</p> </div>"
+		},
+		"Athletics": {
+			"name": "運動",
+			"description": "<div class=\"swade-core\"> \n <p>運動包含個體在受訓的攀爬，跳躍，平衡，騎車，摔跤，滑雪，游泳，投擲或是抓捕等技能上的協調能力。而依仗物理力量而非協調性的角色能以@Compendium[swade-core-rules.swade-edges.Brute]{蠻勇}專長將該技能與@Compendium[swade-core-rules.swade-rules.Traits]{力量}而非@Compendium[swade-core-rules.swade-rules.Traits]{敏捷}進行關聯。</p> \n </div>"
+		},
+		"Battle": {
+			"name": "作戰",
+			"description": "<div class=\"swade-core\"> <p>作戰是指個體的策略以及戰術指揮能力，其能在綜合軍事知識以及在@Compendium[swade-core-rules.swade-rules.Mass Battles]{集團戰鬥}中指揮部隊時派上重要用場。</p> </div>"
+		},
+		"Boating": {
+			"name": "駕船",
+			"description": "<div class=\"swade-core\"> <p>擁有該技能的角色能處理設定中幾乎所有的普通舟艇或者船隻。他們同樣知曉如何處理與其載具相關的任務，比如打結，揚帆或是順水而航。</p> </div>"
+		},
+		"Common Knowledge": {
+			"name": "通用知識",
+			"description": "<div class=\"swade-core\"> <p>角色的通用知識涵蓋他們世界的風土人情，包括禮儀，地理，文化，流行科技，人際與習俗等等。</p> </div>"
+		},
+		"Driving": {
+			"name": "駕駛",
+			"description": "<div class=\"swade-core\"> \n <p>駕駛讓英雄得以控制任何在其設定中普及的動力驅動地面交通工具，包括汽車，摩托車，坦克等等諸如此類。</p> \n <p>(自行車等其他人力驅動的交通工具使用@Compendium[swade-core-rules.swade-skills.Athletics]{運動}，畜力交通工具則是使用@Compendium[swade-core-rules.swade-skills.Riding]{騎乘}。)</p> \n <p>在汽車無處不在的現代設定中，常規出行時角色無需使用駕駛技能，通常只有在諸如@Compendium[swade-core-rules.swade-rules.Chases and Vehicles]{追逐}等危險或是有壓力的情況下才需要駕駛投骰。</p> \n </div>"
+		},
+		"Electronics": {
+			"name": "電子學",
+			"description": "<div class=\"swade-core\"> \n <p>電子學讓英雄得以使用複雜或是專業化設備，諸如控制面板，工業機械，或是未來設定中太空船上的傳感系統。</p> \n <p>在設定中普及的電子設備或是家用電器不需要電子學，若需要投骰的話，@Compendium[swade-core-rules.swade-skills.Common Knowledge]{通用知識}足矣，在現代設定中的攝像機，手機之類的也同理。</p> \n <p>修理任意損壞的電子設備需要@Compendium[swade-core-rules.swade-skills.Repair]{修理}技能。</p> \n </div>"
+		},
+		"Faith": {
+			"name": "信仰",
+			"description": "<div class=\"swade-core\"> <p>信仰是@Compendium[swade-core-rules.swade-rules.Arcane Background (Miracles)]{奧法背景(奇蹟)}必需的奧法技能。</p> </div>"
+		},
+		"Fighting": {
+			"name": "格鬥",
+			"description": "<div class=\"swade-core\"> \n <p>格鬥涵蓋所有的肉搏(近身)攻擊，包括拳，斧，激光劍或是武術等。戰鬥規則以及戰士能嘗試的各種戰術詳見@Compendium[swade-core-rules.swade-rules.Combat]{第三章}。</p> \n </div>"
+		},
+		"Focus": {
+			"name": "專注",
+			"description": "<div class=\"swade-core\"> <p>專注是@Compendium[swade-core-rules.swade-rules.Arcane Background (Gifted)]{奧法背景(異禀)}必需的奧法技能。</p> </div>"
+		},
+		"Gambling": {
+			"name": "賭博",
+			"description": "<div class=\"swade-core\"> <p>無論是在舊西部的酒吧，犯罪組織的密室，大部分軍隊的兵營或是科幻太空船的駕駛艙內，賭博都屢見不鮮。</p> \n <p>為了模擬時長1小時的賭博而不用為每次搖盅或是手牌投骰，在每個人同意諸如$10或是10金幣之類的賭注後，參與賭局的所有人進行一次賭博投骰。結果最低者支付結果最高者二人投骰之間差值倍數的賭注；結果次低者支付結果次高者二人投骰之間差值倍數的賭注，如此類推。如果偶爾有傢伙落在中間，則他不賺不賠。</p> \n <p class=\"embedded-example\"><strong>例子：</strong>紅投出了最高值10，加布投出了最低值4。兩者差值為6，則加布需支付給紅6×$10賭注，即$60。</p> \n <p><strong>作弊： </strong>作弊角色可在投骰結果上+2。 GM可能會根據特定的遊戲或是作弊的方法提高或降低該修正值。然而，如果角色投出@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}，他就露出馬腳了。結果通常會根據情景以及是誰發現而定，但往往都不怎麼愉快！</p> </div>"
+		},
+		"Hacking": {
+			"name": "駭客",
+			"description": "<div class=\"swade-core\"> \n <p>駭客是用以製作程序並駭進安全系統的技能。使用該技能總是需要一台電腦或是某種面板。</p> \n <p>大多數任務只需要進行一次簡單的駭客投骰，而需要消耗的時間由GM來決定，根據項目的複雜程度從一個動作，到數小時，數天甚至數個月都有可能。 @Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}意味著如願得手，出現優良減少一半所需時間。@Compendium[swade-core-rules.swade-rules.Trait Rolls]{失敗}通常表示駭客必須要再試一次，而@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}可能意味著系統把用戶鎖在外面，觸發警報或是某類反制措施。</p> \n </div>"
+		},
+		"Healing": {
+			"name": "醫療",
+			"description": "<div class=\"swade-core\"> \n <p>醫療用途多樣，從處理@Compendium[swade-core-rules.swade-rules.Damage Effects]{損傷}，治療疾病到分析特定種類的法醫證據等等。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Healing]{醫療}和處理@Compendium[swade-core-rules.swade-rules.Damage Effects]{損傷}，治療疾病和中毒的規則見@Compendium[swade-core-rules.swade-rules.Hazards]{危害}。</p> \n <p><strong>取證： </strong> 醫療同樣可用於分析與解剖學外傷相關的證據，包括死因，死亡時間，攻擊角度等類似情況。@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}可以獲取基本信息，而出現@Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}則會知曉更多未經掩蓋的細節。</p> \n </div>"
+		},
+		"Intimidation": {
+			"name": "威嚇",
+			"description": "<div class=\"swade-core\"> \n <p>威嚇是讓對方驚恐的技藝，使其退縮，透露信息或是逃之夭夭。</p> \n <p>威嚇是針對目標@Compendium[swade-core-rules.swade-rules.Traits]{心魂}的@Compendium[swade-core-rules.swade-rules.Trait Rolls]{對抗投骰}。在戰鬥中，這是一個@Compendium[swade-core-rules.swade-rules.Test]{考驗}。戰鬥外，成功的威嚇投骰意味著對方將會在大體上退縮，透露一些信息，或是在有機會時溜之大吉。</p> \n <p>出現@Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}可能意味著對方將會在場景結束前保持退縮，洩露所有秘密，或是有多快跑多快。</p> \n <p>無論是否處於戰鬥，@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}意味著目標將會在該遭遇結束前免疫該角色的威嚇嘗試！</p> \n <p><strong>打點關係：</strong> 威嚇同樣能作為“宏觀”的技能，以模擬在街頭上數小時的努力。 @Compendium[swade-core-rules.swade-rules.Networking]{打點關係}裡面有“打”點腦袋來換取支持或是信息的方法。</p> \n </div>"
+		},
+		"Language": {
+			"name": "語言",
+			"description": "<div class=\"swade-core\"> \n <p>在一些通俗文學或是“星際冒險”(角色經常在不同的奇怪文明之間旅行)的設定中，口述各種語言可通過穿插停頓的對話以及不自然的口音進行簡單扮演。這一開始會有點困難，但是很快就不會有人介意了。 GM可以在這些@Compendium[swade-core-rules.swade-rules.Setting Rules]{設定}中完全忽略這個技能，或是使用的@Compendium[swade-core-rules.swade-rules.Multiple Languages]{多語言}規則。</p> \n <p>在更為現實的設定裡，溝通可能會成為主要障礙，角色需要在額外語言上投入技能點。比如在20世紀八十年代的World War Three遊戲中，一隊聯合國的傘兵無法和敵人溝通，除非他們會俄語，波蘭語或是其他常見的華約語言。</p> \n <p>如果語言技能可用，其應以諸如：語言(西班牙語)，語言(美國手語)等形式列出。而骰子類型反映了角色用得有多流利(角色初始時自己的母語為d8)。</p> \n <div class=\"swade-core\"> \n <table class=\"table value-table\"> <caption class=\"table-caption\"> \n <h2 class=\"table-title\">語言熟練度</h2> \n </caption> \n <tbody> \n <tr class=\"table-header-row\"> \n <th class=\"table-column-header\" scope=\"col\">技能</th> \n <th class=\"table-column-header\" scope=\"col\">能力</th> \n </tr> \n </tbody> \n <tbody> \n <tr> \n <td>d4</td> \n <td>角色能讀，寫並說一些簡單的單詞和短語。</td> \n </tr> \n <tr> \n <td>d6</td> \n <td>角色能進行較長時間的對話，但偶爾會卡頓。</td> \n </tr> \n <tr> \n <td>d8</td> \n <td>角色能流利地說話。</td> \n </tr> \n <tr> \n <td>d10</td> \n <td>角色能模仿該語言下的其他方言。</td> \n </tr> \n <tr> \n <td>d12</td> \n <td>說話者能熟練地敘述重要文學或是傳頌作品。</td> \n </tr> \n </tbody> \n </table> \n </div> \n <p><strong>限制： </strong>當進行一個需要異域語言知識的動作時，其所用的技能都須和語言比較，並使用其中最低的技能進行檢定。比如@Compendium[swade-core-rules.swade-skills.Intimidation]{威嚇}(如果是口頭的)，@Compendium[swade-core-rules.swade-skills.Persuasion]{交涉}，@Compendium[swade-core-rules.swade-skills.Research]{調查}，@Compendium[swade-core-rules.swade-skills.Taunt]{嘲弄}等等都會受到角色掌握的語言技能限制。</p> \n <p>該限制不會在角色的母語上生效。</p> \n </div>"
+		},
+		"Notice": {
+			"name": "察覺",
+			"description": "<div class=\"swade-core\"> \n <p>察覺代表英雄的總體感知力和警戒性。包括對痕跡，聲音，味道以及氣味的感知，指出陰謀，發現埋伏，找出敵人身上隱藏的武器，或是辨別對方現在是在說謊，恐懼或是喜悅等等。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}會獲得基礎信息—角色聽到森林中有東西移動，聞到遠處的煙味，或是發現某人仍未和盤托出 。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}會提供更多細節，比如聲音或氣味的方位，某人正就某話題避而不談或用謊言加以掩蓋等等。</p> \n </div>"
+		},
+		"Occult": {
+			"name": "神秘學",
+			"description": "<div class=\"swade-core\"> <p>神秘學表現了被大多數人認為是天方夜譚的怪異所相關的知識與經驗。其可用於破譯奇異的象形符號，回憶超自然生物的信息，想起諸如狼人症或是吸血疫等怪病的治療方法，或是施展儀式。</p> \n <p>在圖書館，報紙檔案館，古老典籍以及互聯網等尋找信息使用的是@Compendium[swade-core-rules.swade-skills.Research]{調查}技能。然而，如同說明，如果調查員的神秘學技能更要高點，他可用該技能替代調查技能，見34頁的調查。</p> </div>"
+		},
+		"Performance": {
+			"name": "表演",
+			"description": "<div class=\"swade-core\"> \n <p>優秀的藝人能鼓舞靈魂，號召大眾行動，或是單純地從當地人手上掙幾個銅板。其具體根據狀況，設定以及角色在這片區域的名氣而定。</p> \n <p>表演涵蓋唱歌，演戲，演奏，或是需要觀眾欣賞的類似任務。</p> \n <p><strong>賣藝：</strong> 角色能通過表演賺取的金錢數量極為主觀，但就綜合規則而言，@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}的表演能賺取20%設定內的@Compendium[swade-core-rules.swade-rules.Characters]{起始資金}，出現優良則是30%。 GM也能視情況根據表演者的@Compendium[swade-core-rules.swade-rules.Advancement]{位階}讓金錢數量翻倍。該數量適合在小機構或是小地方有點名氣的藝人，大型的表演能大大地提高表演者的報酬，但同時需要更多的時間，精力和準備。</p> \n <p><strong>詭術：</strong>如果角色嘗試欺騙，唬弄或是易容，且GM認為在該環境下可行時，可用@Compendium[swade-core-rules.swade-skills.Persuasion]{表演}技能替代交涉技能。</p> \n </div>"
+		},
+		"Persuasion": {
+			"name": "交涉",
+			"description": "<div class=\"swade-core\"> \n <p>交涉是通過理論，奉承，欺騙，許諾回報或其他友好手段來說服他人按照角色的意願行動。交涉並非心靈控制，其改變的是某人的態度，而不是對方的目標。交涉投骰結果不錯的話，強盜也許會讓角色留著某件有所寄託的珠寶，但仍會拿光其他貨物。</p> \n <p>當用於@Compendium[swade-core-rules.swade-rules.Support]{援助}盟友時，投骰不需要進行@JournalEntry[JBxsGv2wAoAmoCDe]{對抗}。若目標有所抵抗，則需要一次針對目標@Compendium[swade-core-rules.swade-rules.Traits]{心魂}的對抗投骰。 GM應根據扮演，影響對話的相關@Compendium[swade-core-rules.swade-rules.Edges]{專長}或@Compendium[swade-core-rules.swade-rules.Hindrances]{負贅}，以及環境來給予投骰適當修正。</p> \n <p><strong>態度等級：</strong>無論某人是在和誰交談，前者合作的意願大體上取決於其對後者的態度。 GM能基於設定決定NPC的感受，或者，如果他沒有預設想法的話，也可以根據側欄內的@Compendium[swade-core-rules.swade-tables.Reaction Table]{態度表}進行投骰。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}會讓目標的態度上升一級，優良則會提升兩級。同一遭遇內進一步讓態度繼續上升往往不太可能—個體需要一點時間去調整他們的思想傾向。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{失敗}意味著目標在該場景內不會改變想法，除非狀況發生重大改變。@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}會讓目標的態度下降兩級。</p> \n <p>每次互動通常應該只有一次投骰，除非有新信息被揭露，或是予以重酬等等。</p> \n <p><strong>打點關係：</strong>角色能將交涉作為“宏觀”技能使用，模擬通過數小時乃至一晚上的交談和社交來獲取支持或是信息，見@Compendium[swade-core-rules.swade-rules.Networking]{打點關係}。</p> \n </div>"
+		},
+		"Piloting": {
+			"name": "航空",
+			"description": "<div class=\"swade-core\"> \n <p>航空技能讓角色得以操縱飛機，直升機，噴射背包或是太空船。@Compendium[swade-core-rules.swade-rules.Chases and Vehicles]{追逐規則以及載具}戰鬥見第四章。</p> \n <p>具有自帶飛行能力的存在(比如說，長有翅膀)則是以@Compendium[swade-core-rules.swade-skills.Athletics]{運動}作為替代。</p> \n </div>"
+		},
+		"Psionics": {
+			"name": "靈能",
+			"description": "<div class=\"swade-core\"> <p>該技能用於啟動或操縱角色的靈能，@Compendium[swade-core-rules.swade-edges.Arcane Background (Psionics)]{奧法背景(靈能)}專長。</p> </div>"
+		},
+		"Repair": {
+			"name": "修理",
+			"description": "<div class=\"swade-core\"> \n <p>修理是拆解以及修補機械結構的小型裝置，載具，武器以及簡單電子設備的能力，其同時包括拆除建築和爆破物使用。</p> \n <p>修理需要多長時間取決於GM和任務複雜程度。在後啟示錄的設定裡，修理小型汽車上的1個@Compendium[swade-core-rules.swade-rules.Chases and Vehicles]{損傷}也許需要1小時。若是在當下要修理同一輛車上的1個損傷，而且角色還想重新上漆拋光之類的話可能會需要4個小時。@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}意味著物品恢復功能。而出現在修理投骰上的@Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}則能讓所需時間減半。</p> \n <p><strong>工具：</strong>角色如果搞不到基礎工具的話，其投骰上會承受輕微@Compendium[swade-core-rules.swade-rules.Trait Rolls]{減值}(-1到-2)，如果對象設備需要特定器械，則會承受嚴重減值(-3到-4)。</p> \n <p><strong>電子裝置：</strong>修理能用於維修電子設備，但受到英雄的@Compendium[swade-core-rules.swade-skills.Electronics]{電子學}技能的限制，取其中最低者進行投骰。</p> \n </div>"
+		},
+		"Research": {
+			"name": "調查",
+			"description": "<div class=\"swade-core\"> \n <p>精於調查的角色知曉如何有效利用圖書館，報紙檔案室，網絡或其他成文的信息源。</p> \n <p>該技能需要的時間由GM和狀況決定。在網絡上搜索東西或是找出書中的特定段落可能只需要花一個@Compendium[swade-core-rules.swade-rules.Combat]{戰鬥輪}。而在圖書館裡面閱覽書籍，就某一複雜主題在互聯網進行搜索或是挖掘某一個體的背景信息通常需要1小時。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}意味著找到基礎信息，出現優良將會提供更多細節，@Compendium[swade-core-rules.swade-rules.Trait Rolls]{失敗}代表調查人沒有找到想要的信息。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}意味著調查人找到了看似有理有據實際錯得離譜的信息，引起某些敵對實體或是勢力的注意，讀到了一些“凡人不應知曉”的東西並受到了某類心理疾病的影響(輕度@Compendium[swade-core-rules.swade-hindrances.Phobia]{恐懼}，@Compendium[swade-core-rules.swade-hindrances.Quirk]{怪癖}之類)，或者他甚至意外毀掉了信息源。 GM應該在這類不幸發生時開動腦筋，也許能推動團隊通過別種途徑達到目的。</p> \n <p><strong>相關技能：</strong>若是角色具備與其正在調查的對象直接相關的技能，他能以該技能替代調查。比如說，有著d10@Compendium[swade-core-rules.swade-skills.Occult]{神秘學}以及d6調查的探索者，他在失落圖書館裡調查吸血鬼學識時投d10。如果他後面去搜索一間謠傳有吸血鬼蟄伏的房子的地契，則這時就必須如常投調查。</p> \n <p><strong>注意：</strong>調查也許只能提供線索，而在神秘氣息濃重的遊戲裡則更是如此，把收集到的信息整理在一起是玩家的工作。</p> \n </div>"
+		},
+		"Riding": {
+			"name": "騎乘",
+			"description": "<div class=\"swade-core\"> <p>騎乘讓英雄得以駕馭，控制並乘坐所有在設定中常見的動物或畜力交通工具，其包括馬匹，駱駝，飛龍，馬車，馬戰車等等，@Compendium[swade-core-rules.swade-rules.Mounted Combat]{騎乘戰鬥}規則。</p> </div>"
+		},
+		"Science": {
+			"name": "科學",
+			"description": "<div class=\"swade-core\"> \n <p>具備該技能的角色學習過各種晦澀難懂的科學，諸如生物學，異形生物學，化學，地理學，工程學或者其他任何“硬核”科學。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}的科學投骰能揭示相關主題的基礎信息，出現@Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}能提供更多細節。</p> \n </div>"
+		},
+		"Shooting": {
+			"name": "射擊",
+			"description": "<div class=\"swade-core\"> \n <p>所有用遠程武器擊中目標的嘗試都囊括在射擊之中，比如弓箭，手槍或者火箭發射器(投擲武器使用@Compendium[swade-core-rules.swade-skills.Athletics]{運動}技能)。更多遠程戰鬥的內容詳見本書@Compendium[swade-core-rules.swade-rules.Combat]{第三章}。</p> \n </div>"
+		},
+		"Spellcasting": {
+			"name": "施法",
+			"description": "<div class=\"swade-core\"> <p>法師，巫師，術士和女巫都通過施法技能來施展法術，@Compendium[swade-core-rules.swade-rules.Arcane Background (Magic)]{奧法背景(魔法)}專長</p> </div>"
+		},
+		"Stealth": {
+			"name": "潛行",
+			"description": "<div class=\"swade-core\"> \n <p>潛行是隱藏以及無聲移動的能力。如果敵方沒有特別警覺的話，只要潛行投骰@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}，角色就能避免被發現。如果角色@Compendium[swade-core-rules.swade-rules.Trait Rolls]{失敗}，則敵方意識到了什麼不對勁的地方，然後開始積極地搜索周遭。</p> \n <p>一旦對手警覺並積極起來，潛行就要與其@Compendium[swade-core-rules.swade-skills.Notice]{察覺}進行對抗。 (如果有許多對手則進行@Compendium[swade-core-rules.swade-rules.Trait Rolls]{團體}投骰)。</p> \n <p>GM應將@Compendium[swade-core-rules.swade-rules.Illumination]{黑暗}，@Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{掩蔽}，聲音，目標有無分心，以及與目標的@Compendium[swade-core-rules.swade-rules.Size and Scale]{尺寸}差距(和攻擊時一樣，見106頁的尺寸)等所有環境因素囊括進@Compendium[swade-core-rules.swade-skills.Notice]{察覺}減值。比如說，潛行穿過乾枯的葉子可能會讓潛行投骰-2，而嘗試在黑暗中發現某人則會承受102頁列出的@Compendium[swade-core-rules.swade-rules.Illumination]{照明}減值(-4)。但別把同一修正應用在兩邊的骰子上！如果潛行投骰已經因為葉子而-2，就別再讓對應的察覺投骰+2。</p> \n <p><strong>偷襲：</strong> 無論對方是否主動進行搜索，潛行到足夠發起近戰攻擊的距離永遠需要進行@Compendium[swade-core-rules.swade-rules.Trait Rolls]{對抗}目標察覺的潛行投骰。若成功，則對象面對攻擊方陷入@Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{脆弱}，但只持續到攻擊方回合結束為止。若出現優良，則攻擊方形成@Compendium[swade-core-rules.swade-rules.The Drop]{奇襲}效果。</p> \n <p><strong>移動：</strong>戰鬥中的每一回合裡，角色在移動結束或是任何GM認為會吸引註意的動作結束後須以一個@Compendium[swade-core-rules.swade-rules.Actions]{自由動作}進行潛行投骰。</p> \n <p>戰鬥外，能移動的距離完全取決於狀況而定。 GM也許會要求潛行溜過防禦區域邊界的團隊每分鐘投一次潛行，或是讓想悄悄穿過一片黑暗森林而不驚動當地生物的團隊每幾英里就投一次潛行。</p> \n </div>"
+		},
+		"Survival": {
+			"name": "生存",
+			"description": "<div class=\"swade-core\"> \n <p>角色能以生存技能在惡劣的環境下尋找食物，水源或是居所，同時其可以用來在荒郊野外裡導航，分辨哪種植物可以吃哪種不可以吃等等。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}的生存投骰能為一人提供一天份的食物和水，如果出現@Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}則會是足夠五人的份。</p> \n <p>更多關於@Compendium[swade-core-rules.swade-rules.Hunger]{飢餓}和@Compendium[swade-core-rules.swade-rules.Thirst]{乾渴}的細節在@Compendium[swade-core-rules.swade-rules.Hazards]{危難}章節內。</p> \n <p><strong>追踪：</strong>生存技能也可用於發現及跟踪痕跡。一般來說每英里須投骰一次，但GM應根據特定情景需要對其進行調整。</p> \n <p>GM應當根據對象，環境以及時間提供@Compendium[swade-core-rules.swade-rules.Trait Rolls]{加值或是減值}。在被雪覆蓋的環境裡追踪一大群最近通過的傢伙可能會獲得+4加值。而跟踪某名至少在一天以前經過岩石和溪流的個體可能會承受-4減值。</p> \n </div>"
+		},
+		"Taunt": {
+			"name": "嘲弄",
+			"description": "<div class=\"swade-core\"> \n <p>嘲弄是通過凌辱，殘忍的玩笑或是奚落來攻擊對方的自尊心。</p> \n <p>嘲弄是和對方聰慧進行@Compendium[swade-core-rules.swade-rules.Trait Rolls]{抗衡}的對抗投骰。這在戰鬥中屬於一個@Compendium[swade-core-rules.swade-rules.Test]{考驗}。</p> \n <p>在戰鬥外，@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}的嘲弄投骰意味著對方將會退讓，溜走或是開始戰鬥。而出現 @Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}也許會讓對像在場景接下來的時間裡保持畏縮，或是讓他怒火沖天甚至淚流滿臉地離開這個地方，又或者是魯莽無謀地猛攻過來(也許在戰鬥第一輪裡還會用@Compendium[swade-core-rules.swade-rules.Wild Attack]{不羈攻擊})。</p> \n <p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}會讓對像在該遭遇剩下的時間裡免疫該角色的嘲弄。</p> \n </div>"
+		},
+		"Thievery": {
+			"name": "賊活",
+			"description": "<div class=\"swade-core\"> \n <p>開鎖，撬竊，扒竊，手上功夫，激活和關閉陷阱以及誤導，破壞，掩蓋以及偽造等類似行為都稱為賊活。</p> \n <p>如果將其用於開鎖，撬保險櫃，解除陷阱或是進行簡單的非對抗動作，@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}則會讓設備順利打開或者關閉，而出現@Compendium[swade-core-rules.swade-rules.Trait Rolls]{優良}則能減少所需的時間，或是不會觸發警報，又或者是任何GM認為合適的好處。</p> \n <p>手上功夫，隱藏或是埋藏某物或是扒竊則只要@Compendium[swade-core-rules.swade-rules.Trait Rolls]{成功}即可。若目標正主動地盯著角色，則需要進行賊活和@Compendium[swade-core-rules.swade-skills.Notice]{察覺}的@Compendium[swade-core-rules.swade-rules.Trait Rolls]{對抗}。</p> \n <p>GM應針對特別困難的情景給予@Compendium[swade-core-rules.swade-rules.Trait Rolls]{減值}。比如開一把重型掛鎖可能會承受-4減值，而把轉輪手槍藏在厚厚的冬衣下可能會獲得+1加值。@Compendium[swade-core-rules.swade-rules.Trait Rolls]{失敗}通常意味著角色被發現或是花了太長時間(事後角色能再試一次)。@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}則意味著激活了陷阱，讓對像有所警覺，或是搞壞了設備乃至於其必須用別的方法來打開或互動。</p> \n <p><strong>限制：</strong>對諸如鍵盤等電子設備使用賊活會受到角色@Compendium[swade-core-rules.swade-skills.Electronics]{電子學}技能的限制，使用兩技能中的最低者進行投骰。</p> \n </div>"
+		},
+		"Unskilled Attempt": {
+			"name": "拙劣嘗試",
+			"description": "<div class=\"swade-core\"> \n <p>若是角色不具備所嘗試行動的技能，則投一枚d4作為技能骰(@Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{不羈角色}還有不羈骰)，並在結果中-2。</p> \n <p>GM有權決定特定任務無法進行拙劣嘗試，比如執行複雜的外科手術或開噴氣式飛機。</p> \n </div>"
+		},
+		"Weird Science": {
+			"name": "奇異科學",
+			"description": "<div class=\"swade-core\"> <p>世界上與魔法(或是凌駕我們所掌握的科技)為伴的“瘋狂”科學家，發明者，煉金術士或是奇匠在狂野世界裡無處不在。</p> \n <p>儘管這些技術千奇百怪，但其都以奇異科學作為奧法技能，參照@Compendium[swade-core-rules.swade-rules.Arcane Background (Weird Science)]{奧法背景(奇異科學)}以了解他們那讓人驚奇的手段。</p> \n <p>&nbsp;</p> </div>"
+		}
+	}
+}
