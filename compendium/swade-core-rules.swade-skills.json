@@ -1,5 +1,8 @@
 {
 	"label": "SWADE Skills",
+	"mapping": {
+        	"description": "data.description"   
+    	},
 	"entries": {
 		"#[CF_tempEntity]": {
 			"name": "#[CF_tempEntity]",
