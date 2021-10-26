@@ -61,8 +61,8 @@
 			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">Honor is very important to your character. He keeps his word, doesn&rsquo;t abuse or kill prisoners, and generally tries to operate within his world&rsquo;s particular notion of proper gentlemanly or ladylike behavior.</span></p></div>"
 		},
 		"Curious": {
-			"name": "Curious",
-			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">It killed the cat, and it might kill your warrior as well. Curious characters have to check out everything and always want to know what&rsquo;s behind a potential mystery or secret.</span></p></div>"
+			"name": "好奇心",
+			"description": "<div class=\"swade-core\"> <p><span class=\"fontstyle0\">好奇害死貓，也能要人命。擁有好奇心的角色會檢查所有事物同時想知道任何謎團或秘密後潛藏著什麼。</span></p> </div>"
 		},
 		"Death Wish": {
 			"name": "Death Wish",
@@ -77,12 +77,12 @@
 			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">Some people don&rsquo;t believe in the supernatural until they&rsquo;re halfway down some creature&rsquo;s gullet. Doubting Thomases are skeptics who try their best to rationalize supernatural events. They walk right into danger they don&rsquo;t believe in and look for alternate explanations to every supernatural event. </span></p>\n<p><span class=\"fontstyle0\">Even after being confronted with undeniable truth, the doubter&rsquo;s mind eventually begins to doubt what he saw, rationalizes it away, or compartmentalizes the event as &ldquo;one of a kind&rdquo; while continuing to doubt the next mystery.</span></p></div>"
 		},
 		"Driven": {
-			"name": "Driven",
-			"description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">(MINOR OR MAJOR)</span></p>\n<p><span class=\"fontstyle0\">A vow is a commitment to others. Driven characters want something for themselves. It may be to protect the realm, become a decorated officer, prove you&rsquo;re the best gladiator in Rome, or the best pilot in the galactic fleet. </span></p>\n<p><span class=\"fontstyle0\">The @Compendium[swade-core-rules.swade-rules.Characters]{Minor} version shapes the character and pushes his decisions but either happens rarely or is fairly harmless. As a @Compendium[swade-core-rules.swade-rules.Characters]{Major} @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance} it&rsquo;s an overriding desire that comes up frequently or causes peril for the heroine and those around her.</span></p>\n</div>"
+			"name": "自我鞭策",
+			"description": "<div class=\"swade-core\"> \n <p><span class=\"fontstyle0\">(次要或主要)</span></p> \n <p><span class=\"fontstyle0\">誓言是對他人的承諾，但自我鞭策的角色是自己有所追求。其可能是保衛邊疆，成為授勳軍官，證明自己是羅馬最好的角鬥士或是銀河艦隊最優秀的駕駛員。</span></p> \n <p><span class=\"fontstyle0\">@Compendium[swade-core-rules.swade-rules.Characters]{次要}負贅會塑造角色並推動其做出決斷，但這要麼鮮少觸發，要麼幾乎無害。@Compendium[swade-core-rules.swade-rules.Characters]{主要} @Compendium[swade-core-rules.swade-rules.Hindrances]{負贅}則會是壓倒一切的強烈渴望，要麼經常出現，要麼就會給角色以及身邊其他人帶來危險。</span></p> \n </div>"
 		},
 		"Elderly": {
-			"name": "Elderly",
-			"description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">Your adventurer is getting on in years, but he&rsquo;s not quite ready for the nursing home yet. His</span> <span class=\"fontstyle0\">@Compendium[swade-core-rules.swade-rules.Movement]{Pace} is reduced by 1, and he subtracts 1 from </span><span class=\"fontstyle0\">@Compendium[swade-core-rules.swade-rules.Movement]{running rolls}</span><span class=\"fontstyle0\"> (minimum 1). He also suffers a -1 penalty to</span> <span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[swade-core-rules.swade-rules.Traits]{Agility}, @Compendium[swade-core-rules.swade-rules.Traits]{Strength}, and @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} rolls</span></span>, but not their linked @Compendium[swade-core-rules.swade-rules.Traits]{skills}. </span></p>\n<p><span class=\"fontstyle0\">On the plus side, the wisdom of his years grants the hero 5 extra @Compendium[swade-core-rules.swade-rules.Characters]{skill points} which may be used for any @Compendium[swade-core-rules.swade-rules.Traits]{skills} linked to @Compendium[swade-core-rules.swade-rules.Traits]{Smarts}</span><span class=\"fontstyle0\">.</span></p>\n</div>"
+			"name": "年老",
+			"description": "<div class=\"swade-core\"> \n <p><span class=\"fontstyle0\">冒險者已經上了年紀，但他仍沒打算就此安享晚年。他的@Compendium[swade-core-rules.swade-rules.Movement]{移速}-1，在@Compendium[swade-core-rules.swade-rules.Movement]{奔跑骰}上-1(最小為1)。其@Compendium[swade-core-rules.swade-rules.Traits]{靈巧}、@Compendium[swade-core-rules.swade-rules.Traits]{力量}(包括傷害)、@Compendium[swade-core-rules.swade-rules.Traits]{活力}投骰都承受-1減值，但關聯@Compendium[swade-core-rules.swade-rules.Traits]{技能}不會受到影響。</span></p> \n <p><span class=\"fontstyle0\">好的一面是，歲月帶來的智慧讓其額外獲得5點@Compendium[swade-core-rules.swade-rules.Characters]{技能點}，其可用在任何與 @Compendium[swade-core-rules.swade-rules.Traits]{聰慧}關聯的@Compendium[swade-core-rules.swade-rules.Traits]{技能}上。</span></p> \n </div>"
 		},
 		"Enemy": {
 			"name": "Enemy",
@@ -101,8 +101,8 @@
 			"description": "<div class=\"swade-core\">\n<p>(MINOR OR MAJOR)</p>\n<p><span class=\"fontstyle0\">Characters who have lost some or all of their hearing have this disadvantage. As a @Compendium[swade-core-rules.swade-rules.Characters]{Minor} @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance}, it subtracts 4 from all @Compendium[swade-core-rules.swade-skills.Notice]{Notice} @Compendium[swade-core-rules.swade-rules.Trait Rolls]{rolls} made to hear, including awaking due to loud noises. A @Compendium[swade-core-rules.swade-rules.Characters]{Major} @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance} means the character is deaf. She cannot hear and automatically fails all @Compendium[swade-core-rules.swade-skills.Notice]{Notice} @Compendium[swade-core-rules.swade-rules.Trait Rolls]{rolls} that depend on hearing.</span></p>\n<p><span class=\"fontstyle0\">Hearing aids reduce the penalty by 2, but require batteries and have a 50% chance of falling out when he&rsquo;s </span><span class=\"fontstyle0\">@Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounded}, @Compendium[swade-core-rules.swade-rules.Hazards]{falls}, or suffers some other @Compendium[swade-core-rules.swade-rules.Hazards]{trauma}.</span></p>\n</div>"
 		},
 		"Heroic": {
-			"name": "Heroic",
-			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">This noble soul never says no to a person in need. She doesn&rsquo;t have to be happy about it,but she always comes to the rescue of those she feels can&rsquo;t help themselves. She&rsquo;s the first </span><span class=\"fontstyle0\">one to run into a burning building, usually agrees to hunt monsters for little or no pay, and is generally a pushover for a sob story.</span></p></div>"
+			"name": "英雄本色",
+			"description": "<div class=\"swade-core\"> <p><span class=\"fontstyle0\">高貴的靈魂不會拒絕求助的呼聲。其不一定會樂於如此，但角色總會救援那些他認為無法自救的人。角色會第一個衝進火場，會為了丁點報酬或是不求回報地答應狩獵怪物，同時也很容易被悲情故事愚弄。</span></p> </div>"
 		},
 		"Hesitant": {
 			"name": "Hesitant",
@@ -121,8 +121,8 @@
 			"description": "<div class=\"swade-core\">\n<p>(MINOR OR MAJOR)</p>\n<p><span class=\"fontstyle0\">Insecurity leads to envy of others&rsquo; accomplishments or being overly possessive of what this disgruntled soul feels belongs to him. He often complains, pouts, covets others&rsquo; possessions or accolades, claims credit for another&rsquo;s work, disobeys commands, and generally causes problems.</span></p>\n<p><span class=\"fontstyle0\">As a @Compendium[swade-core-rules.swade-rules.Characters]{Minor} @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance}, the character&rsquo;s jealousy is focused on one particular subject (such as his &ldquo;unrivaled&rdquo; skill as a pilot or a romantic interest).</span></p>\n<p><span class=\"fontstyle0\">As a @Compendium[swade-core-rules.swade-rules.Characters]{Major} @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance}, the character is jealous of anyone and everyone he feels outshines him. He consistently bad-mouths his rivals, tries to upstage them, or actively plots to discredit those who threaten his ego.</span></p>\n</div>"
 		},
 		"Loyal": {
-			"name": "Loyal",
-			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">This stalwart defender risks her life for her friends without hesitation. Some Loyal heroes may not </span><span class=\"fontstyle2\">act </span><span class=\"fontstyle0\">that way, but are the first to come to their friends&rsquo; rescue when they&rsquo;re threatened.</span></p></div>"
+			"name": "忠誠",
+			"description": "<div class=\"swade-core\"> <p><span class=\"fontstyle0\">這名忠誠的衛士能毫不猶豫地為自己的朋友犧牲性命。某些忠誠的英雄也許不會這樣行動，但會在朋友受到威脅需要救助時第一個挺身而出。</span></p> </div>"
 		},
 		"Mean": {
 			"name": "Mean",
@@ -137,8 +137,8 @@
 			"description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">Due to trauma or birth, your character has lost the ability to speak. He can write messages to others when needed, use sign language, or some combination of visual communication.</span></p>\n<p><span class=\"fontstyle0\">Vison-based communication may require a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll to perceive correctly (@Compendium[swade-core-rules.swade-rules.Illumination]{illumination} and similar @Compendium[swade-core-rules.swade-rules.Trait Rolls]{penalties} apply).</span></p>\n</div>"
 		},
 		"Obese": {
-			"name": "Obese",
-			"description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">Those who carry their weight well have the @Compendium[swade-core-rules.swade-edges.Brawny]{Brawny} Edge. Those who don&rsquo;t are Obese. A character cannot be both @Compendium[swade.edges.Brawny]{Brawny} and Obese, and this @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance} can&rsquo;t increase your @Compendium[swade-core-rules.swade-rules.Size and Scale]{Size} above +3. </span></p>\n<p><span class=\"fontstyle0\">An Obese hero&rsquo;s @Compendium[swade-core-rules.swade-rules.Size and Scale]{Size} (and therefore @Compendium[swade-core-rules.swade-rules.Characters]{Toughness}) increase by +1. His @Compendium[swade-core-rules.swade-rules.Movement]{Pace} is reduced by 1, and his @Compendium[swade-core-rules.swade-rules.Movement]{running die} by one die type (minimum d4). @Compendium[swade-core-rules.swade-rules.Traits]{Strength} is considered one die type less (minimum d4) for armor and worn gear (not weapons). They may also have difficulty finding armor or @Compendium[swade-core-rules.swade-rules.Common Gear Table]{clothing} that fits or entering confined spaces.</span></p>\n</div>"
+			"name": "肥胖",
+			"description": "<div class=\"swade-core\"> \n <p><span class=\"fontstyle0\">那些能良好支撐體重的傢伙具有@Compendium[swade-core-rules.swade-edges.Brawny]{健壯}專長，而支撐不了的就是肥胖了。角色不能同時具有健壯專長和肥胖負贅，且該@Compendium[swade-core-rules.swade-rules.Hindrances]{負贅}不會讓其@Compendium[swade-core-rules.swade-rules.Size and Scale]{體型}超過+3。</span></p> \n <p><span class=\"fontstyle0\">肥胖英雄的@Compendium[swade-core-rules.swade-rules.Size and Scale]{體型}(因此還有@Compendium[swade-core-rules.swade-rules.Characters]{堅韌})+1。他的@Compendium[swade-core-rules.swade-rules.Movement]{移速}-1，@Compendium[swade-core-rules.swade-rules.Movement]{奔跑骰}也會下降一級(最低d4)。在穿戴護甲及攜帶裝備時，@Compendium[swade-core-rules.swade-rules.Traits]{力量}骰子類型視為小一級(最低d4)。他們可能很難找到合適大小的@Compendium[swade-core-rules.swade-rules.Common Gear Table]{衣服}和護甲，或是不容易進入狹小的空間。</span></p> \n </div>"
 		},
 		"Obligation": {
 			"name": "Obligation",
@@ -153,16 +153,16 @@
 			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">This veteran lost an eye and has trouble with depth perception. He subtracts 2 from any @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Trait roll} dependent on vision </span><span class=\"fontstyle2\">and </span><span class=\"fontstyle0\">more than 5&Prime; (10 yards) distant.</span></p></div>"
 		},
 		"Outsider": {
-			"name": "Outsider",
-			"description": "<div class=\"swade-core\">\n<p>(MINOR OR MAJOR)</p>\n<p><span class=\"fontstyle0\">In a society made up of only a few types of people, your hero isn&rsquo;t one of them. A Native American in a Western town, an alien in a scifi game of human marines, or a half-orc in a party of elves, dwarves, and humans are all examples. Locals are likely to raise prices on her, ignore pleas for help, and generally treat her as lower class.<br /></span></p>\n<p><span class=\"fontstyle0\">Outsiders subtract 2 from @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} @Compendium[swade-core-rules.swade-rules.Trait Rolls]{rolls} made to influence those who aren&rsquo;t her own kind. The @Compendium[swade-core-rules.swade-rules.Characters]{Major} version also means the character has few or no legal rights in the main campaign area. She might be a different species among xenophobes, the civilization may be cruel and unenlightened toward strangers, or she might even be an artificial intelligence whose sapience isn&rsquo;t acknowledged by the law.</span></p>\n</div>"
+			"name": "異客",
+			"description": "<div class=\"swade-core\"> \n <p>(次要或主要)</p> \n <p><span class=\"fontstyle0\">在只有數種類人種構成的社會裡，英雄卻並非其中之一。例子包括在西部小鎮的美洲原住民，在科幻遊戲裡人類星際陸戰隊中的外星人，在精靈、人類、矮人團體中的半獸人等。當地人可能會在和你交易時提高價格，忽略你求助的呼聲，並且平時視你低人一等。<br /></span></p> \n <p><span class=\"fontstyle0\">異客在影響那些並非同類個體的@Compendium[swade-core-rules.swade-skills.Persuasion]{交涉} @Compendium[swade-core-rules.swade-rules.Trait Rolls]{投骰}上-2。@Compendium[swade-core-rules.swade-rules.Characters]{主要}負贅還意味著角色在戰役的主要區域內只有部分甚至沒有合法權利。其可能是仇外者中的異族，所在的文明對陌生人冷酷而愚昧，或者甚至是智慧不被法律承認的AI。</span></p> \n </div>"
 		},
 		"Overconfident": {
-			"name": "Overconfident",
-			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">There&rsquo;s nothing out there your hero can&rsquo;t defeat. At least that&rsquo;s what he thinks. He believes he can do most anything and never wants to retreat from a challenge. He&rsquo;s not suicidal, but he certainly takes on more than common sense dictates.</span></p></div>"
+			"name": "自負",
+			"description": "<div class=\"swade-core\"> <p><span class=\"fontstyle0\">英雄戰無不勝—至少他是這麼想的。他認為自己能做到幾乎任何事，而且從不會在任何挑戰面前退縮。角色沒有自殺傾向，但的確會採取超出常識的舉動。</span></p> </div>"
 		},
 		"Pacifist": {
-			"name": "Pacifist",
-			"description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">(MINOR OR MAJOR)</span></p>\n<p><span class=\"fontstyle0\">Your hero absolutely despises violence. Minor pacifism means he only fights when given no other choice and never allows the killing of prisoners or other defenseless victims.</span></p>\n<p><span class=\"fontstyle0\">Major Pacifists won&rsquo;t fight living characters under </span><span class=\"fontstyle2\">any </span><span class=\"fontstyle0\">circumstances. They may defend themselves, but won&rsquo;t do anything to permanently harm sapient, living creatures. They may use @Compendium[swade-core-rules.swade-rules.Nonlethal Damage]{nonlethal} methods, but only in self-defense or the defense of others. Note that undeniably evil creatures, undead, demons, and the like are fair game even for @Compendium[swade-core-rules.swade-rules.Characters]{Major} Pacifists!</span></p>\n</div>"
+			"name": "和平主義",
+			"description": "<div class=\"swade-core\"> \n <p><span class=\"fontstyle0\">(次要或主要)</span></p> \n <p><span class=\"fontstyle0\">英雄對暴力報以完全的鄙視。次要和平主義意味著他只會在別無選擇時戰鬥，而且決不允許殺害俘虜和無力自保的對象。</span></p> \n <p><span class=\"fontstyle0\">主要和平主義則不會在任何情況下與活著的角色戰鬥。他們會保護自己，但不會做任何會對智能生物，或是活物造成永久傷害的事情。他們會採取@Compendium[swade-core-rules.swade-rules.Nonlethal Damage]{非致命手段}，但只在自衛或保護他人時如此。注意，毋容置疑的邪惡生物、不死生物、惡魔或類似存在，即便是@Compendium[swade-core-rules.swade-rules.Characters]{主要}和平主義其也是可以攻擊的對象！</span></p> \n </div>"
 		},
 		"Phobia": {
 			"name": "Phobia",
@@ -173,8 +173,8 @@
 			"description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">It&rsquo;s said a fool and his money are soon parted. Your hero is one of them. He starts with half the usual @Compendium[swade-core-rules.swade-rules.Characters]{money} for your @Compendium[swade-core-rules.swade-rules.Setting Rules]{setting} and just can&rsquo;t seem to hang on to funds acquired after play begins. In general, the player halves his total funds every game week.</span></p>\n</div>"
 		},
 		"Quirk": {
-			"name": "Quirk",
-			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">This individual has some minor foible that is usually humorous but can occasionally cause him real trouble. A swashbuckler may always try to slash his initials on his foes, a dwarf may brag constantly about his culture, or a snobby d&eacute;butante might not eat, drink, or socialize with the lower class, for example.</span></p></div>"
+			"name": "怪癖",
+			"description": "<div class=\"swade-core\"> <p><span class=\"fontstyle0\">這個人有一些小癖好，雖然通常只會顯得滑稽，但偶爾會給他惹來麻煩。比如，總是嘗試把自己的姓名首字母刻敵人臉上的劍客，總喜歡吹噓自己的文化的矮人，不和下等人士用餐飲酒或社交往來的勢利眼上流少女等等。</span></p> </div>"
 		},
 		"Ruthless": {
 			"name": "Ruthless",
@@ -197,8 +197,8 @@
 			"description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">This adventurer is very skinny, very short, or both. His</span> <span class=\"fontstyle2\">@Compendium[swade-core-rules.swade-rules.Size and Scale]{Size} </span><span class=\"fontstyle0\">is reduced by 1, which reduces his @Compendium[swade-core-rules.swade-rules.Characters]{Toughness} as well.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[swade-core-rules.swade-rules.Size and Scale]{Size}</span> can&rsquo;t be reduced below -1, but the @Compendium[swade-core-rules.swade-rules.Characters]{Toughness} penalty remains. A Small half-folk, for example, remains Size -1 and loses a point of Toughness.</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>\n</div>"
 		},
 		"Stubborn": {
-			"name": "Stubborn",
-			"description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">Stubborn individuals always want their way and never admit they&rsquo;re wrong. Even when it&rsquo;s painfully obvious they&rsquo;ve made a mistake </span><span class=\"fontstyle0\">they try to justify it with half-truths and rationalizations.</span></p></div>"
+			"name": "頑固",
+			"description": "<div class=\"swade-core\"> <p><span class=\"fontstyle0\">頑固角色總是我行我素，拒不認錯。就算他們的錯誤已經非常明顯，他們也會通過真假參半的強詞奪理來進行辯解。</span></p> </div>"
 		},
 		"Suspicious": {
 			"name": "Suspicious",

@@ -1,0 +1,620 @@
+{
+	"label": "Deadlands Skills",
+	"mapping": {
+        "description": "data.description"
+    },
+	"entries": {
+		"#[CF_tempEntity]": {
+			"name": "#[CF_tempEntity]",
+			"description": ""
+		},
+		"Anchor": {
+			"name": "Anchor",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Anchor:</strong>&nbsp;Some ghost have anchors which tie them to the world of the living. An anchor may be any thing, place, or person important to it in life. Such spirits may not travel more than one mile from their anchor.</li>\n<li>&nbsp;</li>\n</ul>"
+		},
+		"Aquatic": {
+			"name": "Aquatic",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Aquatic:</strong>&nbsp;Pace 10\".</li>\n</ul>"
+		},
+		"Armor +4": {
+			"name": "Armor +4",
+			"description": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">Armor +4:</strong><span style=\"color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">&nbsp;Heavy Armor.</span></p>"
+		},
+		"Bad Luck": {
+			"name": "Bad Luck",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Bad Luck:</strong>&nbsp;A posse stalked by a jackalope suffers from horrible luck. They can&rsquo;t spend Bennies until the thing loses interest&mdash;usually after a cowpoke dies&mdash;or it&rsquo;s killed.</li>\n</ul>"
+		},
+		"Bite": {
+			"name": "Bite",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Bite:</strong>&nbsp;Hatchling swarms inflict 2d4 damage per round against every target in a Medium Blast Template. Apply damage to the least armored location.</p>\n</li>\n</ul>"
+		},
+		"Bite/Blood Drain": {
+			"name": "Bite/Blood Drain",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Bite/Blood Drain:</strong>&nbsp;Skeeter swarms inflict hundreds of bites each round, hitting automatically and causing 2d4 damage to all in a Large Blast Template.</li>\n</ul>"
+		},
+		"Black Magic": {
+			"name": "Black Magic",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Black Magic:</strong>&nbsp;Poison women wield powerful black magic. They have 20 Power Points and know the bolt, darkness (not light), fear, and stun powers.</li>\n</ul>"
+		},
+		"Blood Drain": {
+			"name": "Blood Drain",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Blood Drain:</strong>&nbsp;A bloodwire causes 2d4 damage on a successful Fighting attack, draining the target&rsquo;s blood through its tendrils. If it Shakes or Wounds the foe, he takes Fatigue from blood loss as well!</li>\n</ul>"
+		},
+		"Breath Fire": {
+			"name": "Breath Fire",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Breathe Fire:</strong>&nbsp;Cone Template, 3d6 damage.</li>\n</ul>"
+		},
+		"Burning Touch": {
+			"name": "Burning Touch",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Burning Touch:</strong>&nbsp;Every attack that hits, whether it causes damage or not, including Grapples, has a chance to set the victim on fire on a 5&ndash;6 on a d6. This causes d6 damage, rolled separately from any attack, and can grow as described under Fire in Savage Worlds.</li>\n</ul>"
+		},
+		"Burrow": {
+			"name": "Burrow",
+			"description": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">Burrow:</strong><span style=\"color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">&nbsp;Pace 6\"</span></p>"
+		},
+		"Charge": {
+			"name": "Charge",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Charge:</strong>&nbsp;Wall crawlers charge on their first round of attack, scrambling down from a high perch. Add +4 damage to the first successful Fighting roll in a turn when it moves at least 5\" (10 yards).</li>\n</ul>"
+		},
+		"Chill of the Grave": {
+			"name": "Chill of the Grave",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Chill of the Grave:</strong>&nbsp;A ghost may make a Touch Attack that deals 2d6 damage. Only magic armor protects against this damage. The damage is usually non-lethal, but particularly vicious spirits can kill if they choose to do so.</li>\n</ul>"
+		},
+		"Constrict": {
+			"name": "Constrict",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Constrict:</strong>&nbsp;+2 to Athletics and Strength rolls when grappling.</li>\n</ul>"
+		},
+		"Construct": {
+			"name": "Construct",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Construct:</strong>&nbsp;+2 to recover from Shaken; ignore 1 point of Wound penalties; immune to disease and poison.</li>\n</ul>"
+		},
+		"Coup ('Glom)": {
+			"name": "Coup ('Glom)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (&rsquo;Glom):</strong>&nbsp;Deaders who absorb a &rsquo;glom&rsquo;s mojo gain its &rsquo;Glom ability to absorb a corpse, but only one. It takes a full round to add or remove a &rsquo;glommed corpse, and using this power provokes a Fear check for witnesses, and probably an angry mob if townsfolk see it!</p>\n</li>\n</ul>"
+		},
+		"Coup (Acid Spit)": {
+			"name": "Coup (Acid Spit)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Acid Spit):</strong>&nbsp;A Harrowed who absorbs a widow&rsquo;s mojo gains the ability to spit a gob of acid as an action (Range 1/2/4, Damage 2d4, AP 4). The deader also becomes a sad sack with the Quirk (Melancholy) Hindrance.</li>\n</ul>"
+		},
+		"Coup (Bone Shards)": {
+			"name": "Coup (Bone Shards)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Bone Shards):</strong>&nbsp;A Harrowed that absorbs a fiend&rsquo;s essence can hurl bone shards: Range 4/8/16, Damage 2d4, RoF 1.</li>\n</ul>"
+		},
+		"Coup (Brain Picker)": {
+			"name": "Coup (Brain Picker)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Brain Picker):</strong>&nbsp;A Harrowed who counts Coup on a sin eater can absorb memories from a human corpse. The deader has to consume a few bites to do so, but if he does he gains fleeting memories or whatever the Marshal feels fits the victim and the adventure.</li>\n</ul>"
+		},
+		"Coup (Burrow)": {
+			"name": "Coup (Burrow)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Burrow):</strong>&nbsp;A deader who kills a rattler gains the ability to burrow up to 2&times; their Spirit (per the Monstrous Ability in Savage Worlds).</li>\n</ul>"
+		},
+		"Coup (Cold Blood)": {
+			"name": "Coup (Cold Blood)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Cold Blood):</strong>&nbsp;Deaders who feast on a wendigo&rsquo;s spark reduce damage from cold based attacks by 4, and gain +4 resistance to cold-based effects.</li>\n</ul>"
+		},
+		"Coup (Commander)": {
+			"name": "Coup (Commander)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Commander):</strong>&nbsp;A Harrowed who counts coup on a Black Regiment commander gains any one Leadership Edge he&rsquo;s eligible for.</li>\n</ul>"
+		},
+		"Coup (Cure Disease)": {
+			"name": "Coup (Cure Disease)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Cure Disease):</strong>&nbsp;A Harrowed who absorbs a pox walker&rsquo;s coup may cure another&rsquo;s diseases by taking the infection into himself. He uses an action to lay hands on the victim, then suffers one level of Fatigue for the next week. At the end of that week, the disease is flushed from his system.</p>\n</li>\n</ul>"
+		},
+		"Coup (Fossilized)": {
+			"name": "Coup (Fossilized)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Fossilized):</strong>&nbsp;A Harrowed who absorbs a walkin&rsquo; fossil&rsquo;s essence gains hardened bones, increasing his Toughness by +1.</li>\n</ul>"
+		},
+		"Coup (Fresh Flesh)": {
+			"name": "Coup (Fresh Flesh)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Fresh Flesh):</strong>&nbsp;A patchwork man&rsquo;s essence reverses decay slightly. Subtract 2 from Notice rolls made to detect the smell of death (see Decay).</li>\n</ul>"
+		},
+		"Coup (Hunger Spirit)": {
+			"name": "Coup (Hunger Spirit)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup:</strong>&nbsp;The Harrowed finds herself with a nagging hunger that never quite goes away, but she can now attempt natural healing rolls without having to consume meat&mdash;though at a &minus;2 penalty.</li>\n</ul>"
+		},
+		"Coup (Luck)": {
+			"name": "Coup (Luck)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Luck):</strong>&nbsp;A deader who absorbs a jackalope&rsquo;s essence gets an extra Benny at the start of each game session (this stacks with Luck Edges).</li>\n</ul>"
+		},
+		"Coup (Nightflyer)": {
+			"name": "Coup (Nightflyer)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Nightflyer):</strong>&nbsp;A deader who eats a wisp&rsquo;s spark can float when she falls from any height, ignoring falling damage altogether. She can carry whatever she can lift as she plummets, but any more than that and she&rsquo;s gonna hit bottom just as hard as anyone else.</li>\n</ul>"
+		},
+		"Coup (Pet Tick)": {
+			"name": "Coup (Pet Tick)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Pet Tick):</strong>&nbsp;A Harrowed who counts coup on a prairie tick queen gains a prairie tick &ldquo;pet.&rdquo; It&rsquo;s psychically linked to the host as if he&rsquo;s its queen, and it can even live inside the Harrowed&rsquo;s guts if it wants! If it&rsquo;s squashed or dies, it&rsquo;s gone, but of course a new one could be captured&hellip;</li>\n</ul>"
+		},
+		"Coup (Poison)": {
+			"name": "Coup (Poison)",
+			"description": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">Coup (Poison):</strong><span style=\"color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">&nbsp;A Harrowed who counts coup on a poison woman gains her peculiar brain chemistry. He may inflict a Wound on himself to pull out a bit of gray matter (through his nose), and poison</span></p>"
+		},
+		"Coup (Reap the Whirlwind)": {
+			"name": "Coup (Reap the Whirlwind)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Reap the Whirlwind):</strong>&nbsp;Once a Harrowed absorbs a dust devil&rsquo;s essence, ranged attacks against him subtract 2. This stacks with Dodge and similar Edges, powers, or abilities.</li>\n</ul>"
+		},
+		"Coup (Revolvers)": {
+			"name": "Coup (Revolvers)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Revolvers):</strong>&nbsp;Hangin&rsquo; judges are horrors of the highest order. A Harrowed who counts its coup gets one of its revolvers as coup. The gun won&rsquo;t fire a single shot in the hands of a living person, but a Harrowed need never reload.</li>\n</ul>"
+		},
+		"Coup (Scary)": {
+			"name": "Coup (Scary)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Scary):</strong>&nbsp;A Harrowed who absorbs a scarecrow&rsquo;s mojo gains the fear power once per encounter, activated with Occult. The deader also takes +2 damage from heat- and fire-based attacks from now on.</li>\n</ul>"
+		},
+		"Coup (Stealth)": {
+			"name": "Coup (Stealth)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Stealth):</strong>&nbsp;A Harrowed who kills the boogeyman gains a die type to his Stealth skill, and a +2 bonus to Intimidation rolls against anyone with the Young Hindrance. On the flip side, the Harrowed now suffers +2 damage from attacks made by Young assailants.</li>\n</ul>"
+		},
+		"Coup (Terror Bugle)": {
+			"name": "Coup (Terror Bugle)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Terror Bugle):</strong>&nbsp;A Harrowed who counts coup on the bugler gets his bugle. He can blow it once per encounter with a Performance roll. Success causes everyone within 24\" to make a Fear check (at &minus;2 with a raise).</li>\n</ul>"
+		},
+		"Coup (Thick Skin)": {
+			"name": "Coup (Thick Skin)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Thick Skin):</strong>&nbsp;Maze dragons grant +1 Toughness to deaders who claim their mojo.</li>\n</ul>"
+		},
+		"Coup (Trackless)": {
+			"name": "Coup (Trackless)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Trackless):</strong>&nbsp;Harrowed who defeat a true chupacabra gain its Trackless ability. The deader can&rsquo;t turn the ability off if it ever becomes an issue though.</li>\n</ul>"
+		},
+		"Coup (Wolf's Heart)": {
+			"name": "Coup (Wolf's Heart)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Coup (Wolf&rsquo;s Heart):</strong>&nbsp;Harrowed gain +1 Toughness but take +4 damage from silver weapons.</li>\n</ul>"
+		},
+		"Damage Allocation": {
+			"name": "Damage Allocation",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Damage Allocation:</strong>&nbsp;The flesh jacket can&rsquo;t be targeted unless the host is Bound or helpless&mdash;then it can be flayed off with a Healing roll at &minus;2. Failure causes the host a Wound (two on a Critical Failure). The healing power can&rsquo;t be used to remove a skin jacket, but can be used to heal the victim.</li>\n</ul>"
+		},
+		"Death from Above": {
+			"name": "Death from Above",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Death from Above:</strong>&nbsp;When a flying devil bat hits with a raise, it doesn&rsquo;t cause additional damage. Instead, the prey is Entangled and the bat&rsquo;s movement stops for the turn. On its next turn, the bat soars into the air and drops its prey for 4d6 damage.</p>\n<p style=\"box-sizing: border-box; user-select: text;\">If the victim goes before the devil bat, he can try to hang on by making a Grappling roll himself.</p>\n<p style=\"box-sizing: border-box; user-select: text;\">An Entangled result means he hangs on and can&rsquo;t be dropped (and is no longer Entangled himself). A Bound result means he forces it to ground low enough to drop safely. The bat can never Bind a foe while flying.</p>\n</li>\n</ul>"
+		},
+		"Deflection (-4)": {
+			"name": "Deflection (-4)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Deflection (&minus;4):</strong>&nbsp;Physical attacks against a dust devil are made at &minus;4. Ranged projectiles that miss are sucked into the whirlwind and spat back out at a random target, hitting automatically for regular damage (no raise)!</li>\n</ul>"
+		},
+		"Dense Body": {
+			"name": "Dense Body",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Dense Body:</strong>&nbsp;+2 Toughness.</li>\n</ul>"
+		},
+		"Disease": {
+			"name": "Disease",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Disease:</strong>&nbsp;Tummy twisters start out as a nasty microbe. A cowpoke who drinks infested water makes a Vigor roll at &minus;2. Failure means he&rsquo;s infected; the parasite latches onto his gut and starts drinking blood. This presents as Debilitating Disease (see Disease in Savage Worlds). If it&rsquo;s not removed within a week, the critter grows as big as a house cat and inserts an appendage into the host&rsquo;s spine. This allows the twister to control the body as a &ldquo;vehicle&rdquo; of sorts.</li>\n</ul>"
+		},
+		"Disease (-2)": {
+			"name": "Disease (-2)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Disease (&minus;2):</strong>&nbsp;Each time the victim comes into close contact with a pox walker, or is Shaken or Wounded by one of its tainted weapons, he must make a Vigor roll at &minus;2 or contract a Chronic Disease. Symptoms manifest a day later, and can then be spread to others as well (but ignore the &minus;2 penalty when contacted by someone other than the pox walker).</p>\n<p style=\"box-sizing: border-box; user-select: text;\">The disease is magical in nature, so even Harrowed may be infected&mdash;though they can&rsquo;t spread it.</p>\n</li>\n</ul>"
+		},
+		"Disguise": {
+			"name": "Disguise",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Disguise:</strong>&nbsp;A pox walker can hide its infection with an illusion. Detect arcana detects it as such, and dispel negates it. The walker can resume the illusion as an action on its turn, but in the meantime, others see it for the horrid thing it truly is (and make a Fear check!)</p>\n</li>\n</ul>"
+		},
+		"Egg Insertion": {
+			"name": "Egg Insertion",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Egg Insertion:</strong>&nbsp;The round after a victim is paralyzed (see below), the critter injects him with eggs (an Athletics roll) which hatch in 1d4 hours. If the victim is alive when the eggs hatch, his death is as gruesome as you might imagine (and those who see it make a Fear check). A surgeon can remove the eggs before they hatch with a Healing roll at &minus;2.</li>\n</ul>"
+		},
+		"Envelop": {
+			"name": "Envelop",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Envelop:</strong>&nbsp;Flesh jackets take over a host by grappling. Their stretchy, fleshy skin adds +2 to Grappling attempts. Once a victim&rsquo;s Bound, he&rsquo;s controlled.</li>\n</ul>"
+		},
+		"Ethereal": {
+			"name": "Ethereal",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Ethereal:</strong>&nbsp;Ghosts can become invisible and immaterial at will and can only be harmed by magical attacks.</li>\n</ul>"
+		},
+		"Fear": {
+			"name": "Fear",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Fear:</strong>&nbsp;Simply laying eyes on this terror provokes a Fear check.</p>\n</li>\n</ul>"
+		},
+		"Fear (-2)": {
+			"name": "Fear (-2)",
+			"description": "<div class=\"deadlands-core\">\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">Fear (&minus;2):</strong><span style=\"color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\"> Anyone seeing this horror must make a Fear check at &minus;2</span></p>\n</div>"
+		},
+		"Fearless": {
+			"name": "Fearless",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Fearless: </strong>Immune to Fear and Intimidation.</p>\n</li>\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p>&nbsp;</p>\n</li>\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">&nbsp;</li>\n</ul>"
+		},
+		"Flight": {
+			"name": "Flight",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Flight:</strong>&nbsp;Pace 16\".</p>\n</li>\n</ul>"
+		},
+		"Fluid Drain": {
+			"name": "Fluid Drain",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Fluid Drain:</strong>&nbsp;A sand viper drains bodily fluids from a paralyzed victim at the rate of one Fatigue level per minute. This Fatigue can kill, and recovers at the rate of one level per day.</li>\n</ul>"
+		},
+		"Glom": {
+			"name": "Glom",
+			"description": "<div class=\"deadlands-core\">\n<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">&rsquo;Glom:</strong>&nbsp;A &rsquo;glom takes a full round to add a corpse to its mass. For every additional corpse it adds, the thing gains a die type in Strength and Vigor and +1 Size. A &rsquo;glom may grow as large as 10 corpses (Strength and Vigor d12+7, Size 9, Toughness 22); after that is splits into two equal &rsquo;gloms.</p>\n<p style=\"box-sizing: border-box; user-select: text;\">A &rsquo;glom can take three Wounds, plus one additional Wound for every corpse after the third. A &rsquo;glom made of five bodies, for example, can take five Wounds before it&rsquo;s destroyed.</p>\n</li>\n</ul>\n</div>"
+		},
+		"Go To Ground": {
+			"name": "Go To Ground",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Go to Ground:</strong>&nbsp;As a free action, a corn stalker can enter the soil of a corn field, reappearing on its next turn anywhere in the same field, often getting The Drop on unsuspecting victims.</li>\n</ul>"
+		},
+		"Gyrostabilizer": {
+			"name": "Gyrostabilizer",
+			"description": "<p><span style=\"color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">No recoil penalty when firing its Gatling.</span></p>"
+		},
+		"Hardy": {
+			"name": "Hardy",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Hardy:</strong>&nbsp;A second Shaken result does not cause a Wound.</li>\n</ul>"
+		},
+		"Hive Mind": {
+			"name": "Hive Mind",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Hive Mind:</strong>&nbsp;Pit wasps within 100 yards of the queen (even through solid barriers) use her Smarts, Spirit, and Notice Traits.</li>\n</ul>"
+		},
+		"Hooks": {
+			"name": "Hooks",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Hooks:</strong>&nbsp;Each round, a swarm of hatchlings may make a Fighting roll against one target under the swarm template. This attack inflicts no damage, but on a successful attack a few hatchlings get into a victim&rsquo;s nose or throat.</p>\n<p style=\"box-sizing: border-box; user-select: text;\">After an hour, the target must make a Vigor roll each hour or suffer a level of Fatigue. If the victim dies from this Fatigue, the now full-grown prairie tick bursts from his guts in a shower of blood and gore.</p>\n</li>\n</ul>"
+		},
+		"Hooks (Adult)": {
+			"name": "Hooks (Adult)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Hooks:</strong>&nbsp;A raise on a Fighting roll means the tick yanks its victim&rsquo;s lip down with its two front hooks and crawls into his throat. Every hour thereafter, the victim must roll Vigor or suffer a level of Fatigue. Death means the tick has grown large enough to burst out of the ribcage in a gory explosion (seeing it provokes a Fear check at &minus;2).</li>\n</ul>"
+		},
+		"Howl": {
+			"name": "Howl",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Howl:</strong>&nbsp;As an action, dread wolves may make an Intimidation Test against a single target within 12\". The pack can do this together as a group roll.</li>\n</ul>"
+		},
+		"Human Shield": {
+			"name": "Human Shield",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Human Shield:</strong>&nbsp;Being nestled in some-body&rsquo;s gut gives the twister some protection. The twister&rsquo;s host is considered an adjacent target per the Innocent Bystanders rule in Savage Worlds.</li>\n</ul>"
+		},
+		"Hypnotism": {
+			"name": "Hypnotism",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><span class=\"bold\" style=\"box-sizing: border-box; user-select: text;\">Hypnotism:</span>&nbsp;As an action, an uktena can make an opposed Spirit roll to subvert the will of anyone looking directly at it. This works like the puppet power but costs no Power Points and can't be maintained. Uktena use their hypnotic power to render victims helpless, then force them to approach the creature so it can feed on them.</li>\n</ul>"
+		},
+		"Immunity": {
+			"name": "Immunity",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Immunity:</strong>&nbsp;The spirit is immune to mundane attacks. Magical attacks do half damage.</li>\n</ul>"
+		},
+		"Immunity (All)": {
+			"name": "Immunity (All)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Immunity (All):</strong>&nbsp;Diablos are immune to all attacks except those of their chosen targets.</li>\n</ul>"
+		},
+		"Immunity (Cold)": {
+			"name": "Immunity (Cold)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Immunity (Cold):</strong>&nbsp;Wendigos are immune to cold&ndash;based attacks and effects.</li>\n</ul>"
+		},
+		"Immunity (Fire)": {
+			"name": "Immunity (Fire)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Immunity (Fire):</strong>&nbsp;Walkin&rsquo; fossils suffer no damage from fire.</li>\n</ul>"
+		},
+		"Immunity (Slashing/Piercing)": {
+			"name": "Immunity (Slashing/Piercing)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Immunity (Slashing/Piercing):</strong>&nbsp;Saddle burrs are too small to be targeted by piercing and slashing weapons, but see proliferation below. Magic and bludgeoning attacks affect them normally. If it suffers a Wound, a burr is destroyed.</li>\n</ul>"
+		},
+		"Induce Hunger": {
+			"name": "Induce Hunger",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Induce Hunger:</strong>&nbsp;The spirit&rsquo;s top head can scream once per round as an action, inducing intense hunger in every foe within 12\". Those who fail take a level of Fatigue. Anyone Incapacitated by the attack rises as a faminite the following round! If given blessed food of some kind (like a holy wafer), or magically healed with the Neutralize Disease modifier, the victim remains Incapacitated but can no longer become a faminite from this particular hunger spirit.</li>\n</ul>"
+		},
+		"Infection": {
+			"name": "Infection",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Infection:</strong>&nbsp;Anyone slain by a were has a 50% chance of rising as one themselves, involuntarily transforming every full moon. Most gain control after 1d6 years.</li>\n</ul>"
+		},
+		"Infection (-2)": {
+			"name": "Infection (-2)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Infection (&minus;2):</strong>&nbsp;Anyone Shaken or Wounded by a faminite&rsquo;s bite or claw must make a Vigor roll at &minus;2 or become a faminite in d4 rounds. Healing with the Neutralize Disease modifier eliminates the condition, as does killing the hunger spirit who spawned the outbreak.</li>\n</ul>"
+		},
+		"Infection (Dread Wolf)": {
+			"name": "Infection (Dread Wolf)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Infection:</strong>&nbsp;Anyone Shaken or Wounded by the bite of a dread wolf must make a Vigor roll or gain the Berserk Edge and Night Terrors Hindrance, which can only be cured via magical healing with the Neutralize Poison modifier. This particular infection is highly supernatural and can even affect the Harrowed.</li>\n</ul>"
+		},
+		"Infection (Nosferatu)": {
+			"name": "Infection (Nosferatu)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Infection:</strong>&nbsp;Anyone Incapacitated by a nosferatu&rsquo;s bite rises as a nosferatu under the Marshal&rsquo;s control in 1d6 hours.</li>\n</ul>"
+		},
+		"Infravison": {
+			"name": "Infravison",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Infravision:</strong>&nbsp;Halve Illumination penalties when attacking warm targets.</li>\n</ul>"
+		},
+		"Inhabit": {
+			"name": "Inhabit",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Inhabit:</strong>&nbsp;As a free action, a gremlin may become ethereal and inhabit any type of machine (though the inventions of mad scientists and infernal devices are their favorites). Once inside, they&rsquo;re trapped there until forced out (see below). The number of gremlins a device holds depends on its size. Small items hold up to four creatures, medium devices (bigger than a breadbox) up to eight, and large machines (e.g., a steam wagon), may contain up to 12 gremlins.</li>\n</ul>"
+		},
+		"Invulnerability": {
+			"name": "Invulnerability",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Invulnerability:</strong>&nbsp;Animate hands can be killed, but they return the next night unless destroyed by their Weakness.</li>\n</ul>"
+		},
+		"Invulnerability (Gremlin)": {
+			"name": "Invulnerability (Gremlin)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Invulnerability:</strong>&nbsp;As long as they&rsquo;re inhabiting a device, gremlins are impervious to mundane and magical attacks. They can&rsquo;t even be Shaken or Stunned while nestled in a cozy device.</li>\n</ul>"
+		},
+		"Invulnerability (Hangin Judges)": {
+			"name": "Invulnerability (Hangin Judges)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Invulnerability:</strong>&nbsp;Hangin&rsquo; judges can&rsquo;t be Wounded by anything other than their Weakness, see below.</li>\n</ul>"
+		},
+		"Invulnerability (Sin Eater)": {
+			"name": "Invulnerability (Sin Eater)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Invulnerability:</strong>&nbsp;A slain sin eater is reborn the next night, rising from a grave in unhallowed ground. If there are no such graves within 10 miles, the sin eater is permanently destroyed.</li>\n</ul>"
+		},
+		"Jinx": {
+			"name": "Jinx",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Jinx:</strong>&nbsp;Every two gremlins in a device (round up) inflicts a &minus;1 penalty to use it. If the device is a mad scientist&rsquo;s gizmo (his power) or an infernal device, all Malfunctions are Catastrophic!</li>\n</ul>"
+		},
+		"Laughing Head": {
+			"name": "Laughing Head",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Laughing Head:</strong>&nbsp;The head inside the hunger spirit&rsquo;s ribs can Taunt a foe, gibbering and laughing incoherently at them. This doesn&rsquo;t incur a Multi-Action penalty for the horror.</li>\n</ul>"
+		},
+		"Limited Invulnerability": {
+			"name": "Limited Invulnerability",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Limited Invulnerability:</strong>&nbsp;A patchwork man can be healed by those with an Arcane Background, even if Incapacitated. The only way to permanently kill a patchwork man is to destroy the head.</li>\n</ul>"
+		},
+		"Low Light VIsion": {
+			"name": "Low Light VIsion",
+			"description": "<p><span style=\"color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">Ignore Dim and Dark Illumination penalties.</span></p>"
+		},
+		"Mimicry": {
+			"name": "Mimicry",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Mimicry:</strong>&nbsp;A catamount can alter its cry to sound like a call for help or the scream of a woman or small child.</li>\n</ul>"
+		},
+		"Night Vision": {
+			"name": "Night Vision",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Night Vision:</strong>&nbsp;Tommyknockers can see just fine in the dark, ignoring Dim and Dark Illumination penalites.</li>\n</ul>"
+		},
+		"Nightmares": {
+			"name": "Nightmares",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Nightmares:</strong>&nbsp;Some ghosts can affect the dreams of those who sleep in their haunting place. This gives a target the Night Terrors Hindrance.</li>\n</ul>"
+		},
+		"Pack Tactics": {
+			"name": "Pack Tactics",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Pack Tactics:</strong>&nbsp;Wolflings gain a bonus to damage equal to their Gang Up bonus, slashing and gnashing at exposed areas as they whirl about their prey in a confusing dance of death.</li>\n</ul>"
+		},
+		"Poison": {
+			"name": "Poison",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Poison:</strong>&nbsp;Anyone Shaken or Wounded by a ghoul&rsquo;s bite or claws must make a Vigor roll against Paralyzing Poison (see Savage Worlds).</li>\n</ul>"
+		},
+		"Poison (Lethal)": {
+			"name": "Poison (Lethal)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Poison (&minus;2):</strong>&nbsp;Anyone Shaken or Wounded by a terrantula&rsquo;s bite makes a Vigor roll against Lethal Poison.</li>\n</ul>"
+		},
+		"Poison (Saddle Burr)": {
+			"name": "Poison (Saddle Burr)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Poison:</strong>&nbsp;Anyone touching a saddle burr with bare skin is stung by the quills. The poor sap must make a Vigor roll or suffer a &minus;2 penalty to Agility and Agility-based skill rolls requiring the use of the stung area for 1d4 days. If the area that&rsquo;s stung isn&rsquo;t obvious, roll on the Injury Table in Savage Worlds. Multiple stings may affect different body parts.</li>\n</ul>"
+		},
+		"Poltergeist": {
+			"name": "Poltergeist",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Poltergeist:</strong>&nbsp;Once per encounter, a ghost can create a storm of objects in an area the size of a Large Blast Template. The storm may move up to 12\" per round, and lasts up to 5 rounds. Anyone inside suffers 2d4 damage per round.</li>\n</ul>"
+		},
+		"Possesion": {
+			"name": "Possesion",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Possession:</strong>&nbsp;The widow is an insubstantial spirit and remains so until she possesses a living woman who comes within 10\" (20 yards) of the widow&rsquo;s anchor (see above). This is an opposed Spirit roll. With success, the widow assumes the host&rsquo;s Agility, Strength, Vigor, and linked skills and Derived Traits, but retains her own mental Traits.</li>\n</ul>"
+		},
+		"Pounce": {
+			"name": "Pounce",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Pounce:</strong>&nbsp;A catamount can leap to attack. If it makes a Wild Attack, it adds +4 to its damage instead of +2.</li>\n</ul>"
+		},
+		"Proliferation": {
+			"name": "Proliferation",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Proliferation:</strong>&nbsp;When squished, cut, or flicked off, a saddle burr bursts into d4 smaller pods, each of which flies off and automatically hits some other sidewinder within a Large Blast Template. Smaller pods don&rsquo;t split until they mature (about a week).</li>\n</ul>"
+		},
+		"Puppet": {
+			"name": "Puppet",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Puppet:</strong>&nbsp;Will o&rsquo; the wisps have the puppet power and 20 Power Points, activated with Spirit. Will o&rsquo; the wisps use puppet on stubborn folks who won&rsquo;t be lured into danger.</li>\n</ul>"
+		},
+		"Reform": {
+			"name": "Reform",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Reform:</strong>&nbsp;If a bone fiend is Incapacitated, the ebon skull hovers over the body, losing its next turn as it reforms the body. The skull has Improved Dodge in this mode, but does not get the Armor of the rib cage (see below).</li>\n</ul>"
+		},
+		"Regeneration (Fast)": {
+			"name": "Regeneration (Fast)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Regeneration (Fast):</strong>&nbsp;The hunger spirit makes a natural healing roll as a free action at the end of its turn.</li>\n</ul>"
+		},
+		"Seismic Sensors": {
+			"name": "Seismic Sensors",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Seismic Sensors:</strong>&nbsp;Prairie ticks sense prey by vibrations in the earth. They can detect a human&rsquo;s movement up to 25\" (50 yards) distant. This is an opposed Notice versus Stealth if prey is trying to step lightly (&minus;2 if running), otherwise it&rsquo;s a simple Notice roll for the tick. Horses double the distance; wagons triple it.</li>\n</ul>"
+		},
+		"Self-Destruct": {
+			"name": "Self-Destruct",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Self-Destruct:</strong>&nbsp;If an automaton is Incapacitated, it explodes in an area equal to a Medium Blast Template, inflicting 3d6 damage on anyone within.</li>\n</ul>"
+		},
+		"Shape Change": {
+			"name": "Shape Change",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Shape Change:</strong>&nbsp;A gaki can mimic another human or appear as a monstrous cat. Changing form takes a full round. It can&rsquo;t do anything else during this time.</li>\n</ul>"
+		},
+		"Shape Change (Horned Serpent)": {
+			"name": "Shape Change (Horned Serpent)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Shape Change:</strong>&nbsp;Horned serpents have the shape change power, activated with Athletics and costing no Power Points. It can change its shape to become identical to any creature it preyed on in the last 24 hours. It may remain in that form indefinitely.</li>\n</ul>"
+		},
+		"Shatter": {
+			"name": "Shatter",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Shatter:</strong>&nbsp;Glass shatters within 10 yards of the humbug, including vials, eyeglasses, camera lenses, scopes, and even glass eyes!</li>\n</ul>"
+		},
+		"Sin Eating": {
+			"name": "Sin Eating",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Sin Eating:</strong>&nbsp;Sin eaters become twisted versions of the people they consume.</li>\n</ul>"
+		},
+		"Slam": {
+			"name": "Slam",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Slam:</strong>&nbsp;A Maze dragon can rise from the water to crush boats or prey beneath its massive body. Place a Cone Template to represent the portion of the creature&rsquo;s body used to crush. Everything within must beat the monster in an opposed Athletics versus Agility roll or take its Str as damage. Ignore Scale modifiers when making a slam attack.</li>\n</ul>"
+		},
+		"Slow Regeneration": {
+			"name": "Slow Regeneration",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Slow Regeneration:</strong>&nbsp;A gaki makes a natural healing roll once per day.</li>\n</ul>"
+		},
+		"Sonar": {
+			"name": "Sonar",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Sonar:</strong>&nbsp;Devil bats &ldquo;see&rdquo; by sonar. If its prey has the guts to stand still among other obstacles (like rocks and such), the thing subtracts 2 from its Fighting roll. This requires a Fear check at &minus;2. Failure means the victim flinches or moves, allowing the bat to &ldquo;see&rdquo; him and eliminate the penalty.</p>\n</li>\n</ul>"
+		},
+		"Sonic Attack": {
+			"name": "Sonic Attack",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Sonic Attack:</strong>&nbsp;A threatened humbug emits a sonic screech as an action. Everyone in a Large Blast Template centered on the critter must make a Vigor roll or suffer 2d4 damage. Armor doesn&rsquo;t protect, but thick wax earplugs reduce the bone-rattling damage by 2.</li>\n</ul>"
+		},
+		"Sonic Drone": {
+			"name": "Sonic Drone",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Sonic Drone:</strong>&nbsp;Everything within five miles of the humbug vibrates at a frequency that drives humans mad, even the deaf. Sleeping with a humbug nearby takes a Spirit roll at &minus;6, or &minus;2 with thick was earplugs or the Hard of Hearing Hindrance. See Sleep in Savage Worlds for the effects of sleep deprivation.</li>\n</ul>"
+		},
+		"Soul Eater": {
+			"name": "Soul Eater",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Soul Eater:</strong>&nbsp;When it kills, a night haunt feasts on the victim&rsquo;s fleeing soul. As a result, a haunt&rsquo;s victims never return from the grave Harrowed, and can&rsquo;t be resurrected.</li>\n</ul>"
+		},
+		"Split": {
+			"name": "Split",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Split:</strong>&nbsp;Nibbler swarms split into two smaller swarms when Wounded. Reduce the Blast Template one size after a Wound. Small swarms are destroyed.</li>\n</ul>"
+		},
+		"Spring": {
+			"name": "Spring",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Spring:</strong>&nbsp;Terrantulas can spring up to 3\", gaining a +2 bonus to their first Fighting roll when they do so.</li>\n</ul>"
+		},
+		"Strangulation": {
+			"name": "Strangulation",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Strangulation:</strong>&nbsp;When an animate hand scores a raise on a Fighting roll, it latches onto the victim&rsquo;s neck. The victim makes a Vigor roll then at the start of each of his turns thereafter or suffers a level of Fatigue from suffocation. The victim may tear the hand away with an opposed Strength roll. After the hand is removed the victim recovers one Fatigue level per round.</li>\n</ul>"
+		},
+		"Swallow": {
+			"name": "Swallow",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Swallow:</strong>&nbsp;A dragon that hits with a raise swallows Normal Size or smaller prey whole. The victim suffers 2d6 damage every round from the crushing gullet and acidic bile. The only way to get out is to kill the beast. On the plus side, the hero can still attack the Maze dragon from the inside, where the creature doesn&rsquo;t benefit from its Heavy Armor.</li>\n</ul>"
+		},
+		"Swarm": {
+			"name": "Swarm",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Swarm:</strong>&nbsp;Parry +2. Nibbler swarms cover the area of a Large Blast Template. Cutting and piercing attacks inflict no damage. Area effect weapons work normally. Neither splashing, stomping, nor flailing bothers them.</li>\n</ul>"
+		},
+		"Tears": {
+			"name": "Tears",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Tears:</strong>&nbsp;If she&rsquo;s been revealed, the widow sprays bloodstained tears from her eyes in a radius the size of Medium Blast Template centered on her. This causes 2d6 damage to everyone in the template at the end of her turn.</li>\n</ul>"
+		},
+		"Tentacles": {
+			"name": "Tentacles",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Tentacles:</strong>&nbsp;A desert thing has four tentacle actions and Reach 5. Bound or Entangled prey may be bitten as usual.</li>\n</ul>"
+		},
+		"Terror": {
+			"name": "Terror",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Terror:</strong>&nbsp;The ghost reveals its most heinous form, forcing witnesses to make a second Fear check with a &minus;2 modifier.</li>\n</ul>"
+		},
+		"Trackless": {
+			"name": "Trackless",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Trackless:</strong>&nbsp;Chupas are hard to track. Survival (tracking) rolls to follow them are made at &minus;4.</li>\n</ul>"
+		},
+		"Trade": {
+			"name": "貿易",
+			"description": "<div class=\"deadlands-core\">\n<p>貿易是指經營企業所需的日常工作（鐵匠、酒館老闆、礦工等）。注意括號中的具體貿易。貿易可以讓企業家通過廣告、省錢策略和購買更便宜的商品來籌集資金（如《狂野世界》中的表演技能）。</p>\n</div>"
+		},
+		"Unbelievable": {
+			"name": "Unbelievable",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Unbelievable:</strong>&nbsp;Adults are skeptical of the boogeyman, believing only when they manage to catch sight of it. Persuasion rolls to convince them suffer a &minus;2 penalty.</li>\n</ul>"
+		},
+		"Undead": {
+			"name": "Undead",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Undead:</strong>&nbsp;+2 Toughness; +2 to recover from Shaken; ignore 1 point of Wound modifiers; Called Shots do no extra damage; doesn&rsquo;t breathe; immune to disease and poison.</p>\n</li>\n</ul>"
+		},
+		"Wall Walker": {
+			"name": "Wall Walker",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Wall Walker:</strong>&nbsp;Hostless flesh jackets can walk on vertical or inverted surfaces at their full Pace, and may run.</li>\n</ul>"
+		},
+		"Wall Walker (Giant Terrantula)": {
+			"name": "Wall Walker (Giant Terrantula)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Wall Walker:</strong>&nbsp;A giant terrantula can move on vertical surfaces at full Pace. It&rsquo;s too large and heavy to walk on inverted surfaces.</li>\n</ul>"
+		},
+		"Water Drain": {
+			"name": "Water Drain",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Water Drain:</strong>&nbsp;A duster dehydrates a victim up to 12\" distant with a sorrowful gaze. This is an action but requires no roll by the duster. The victim must make a Vigor roll or take a level of Fatigue. This can lead to death.</li>\n</ul>"
+		},
+		"Water Sense": {
+			"name": "Water Sense",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Water Sense:</strong>&nbsp;A duster can sense even a cup-full of water within a mile.</li>\n</ul>"
+		},
+		"Weakness (Back o' the Head)": {
+			"name": "Weakness (Back o' the Head)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Back o&rsquo; the Head):</strong>&nbsp;Called Shots to the back of a poison woman&rsquo;s head (&minus;4) cause normal damage and can kill her.</li>\n</ul>"
+		},
+		"Weakness (Banishment)": {
+			"name": "Weakness (Banishment)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Banishment):</strong>&nbsp;Ghosts are susceptible to the banish power, but they return to the anchor in 2d6 hours as long as it remains intact. Most ghosts can be permanently laid to rest if a hero manages to rectify whatever caused them to remain in our world. This might be anything from finding out some hidden truth to avenging a murder, or properly burying their remains.</li>\n</ul>"
+		},
+		"Weakness (Bullets of a Law Dog)": {
+			"name": "Weakness (Bullets of a Law Dog)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Bullets of a Law Dog):</strong>&nbsp;Hangin&rsquo; Judges can be Wounded by bullets fired by a duly authorized law man or woman. If this &ldquo;kills&rdquo; the creature, it dissipates and comes back the following night.</li>\n</ul>"
+		},
+		"Weakness (Castor Oil)": {
+			"name": "Weakness (Castor Oil)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Castor Oil):</strong>&nbsp;Drinking at least a half-a-quart of castor oil requires a Vigor roll at &minus;2, and kills all the hatchlings in one&rsquo;s system.</p>\n</li>\n</ul>"
+		},
+		"Weakness (Chest)": {
+			"name": "Weakness (Chest)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Chest):</strong>&nbsp;A magical, Called Shot (&minus;4) that causes a Wound to the laughing head destroys the spirit forever!</li>\n</ul>"
+		},
+		"Weakness (Destruction)": {
+			"name": "Weakness (Destruction)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Destruction):</strong>&nbsp;Gremlins remain in a device until it&rsquo;s destroyed, a successful banishment is performed on it, or the device enters consecrated ground. If any of these things happen, the creatures erupt from the device in physical form and may be slain normally. They can&rsquo;t inhabit another device for at least 24 hours, so they try to escape as quickly as possible.</li>\n</ul>"
+		},
+		"Weakness (Ebon Skull)": {
+			"name": "Weakness (Ebon Skull)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Ebon Skull):</strong>&nbsp;A Wound to the skull (&minus;4 to hit) destroys the bone fiend. It has 4 points of Armor while tucked inside the rib cage.</li>\n</ul>"
+		},
+		"Weakness (Electricity)": {
+			"name": "Weakness (Electricity)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Electricity):</strong>&nbsp;Electricity-based attacks affect a wisp normally.</li>\n</ul>"
+		},
+		"Weakness (Fire)": {
+			"name": "Weakness (Fire)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Fire):</strong>&nbsp;A scarecrow killed by fire is permanently destroyed.</li>\n</ul>"
+		},
+		"Weakness (Fire, Acid)": {
+			"name": "Weakness (Fire, Acid)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Fire, Acid):</strong>&nbsp;Fire and acid permanently destroy an animate hand. &ldquo;Greater&rdquo; versions can only be destroyed by the original owner. If he&rsquo;s deceased, it can be rendered inert by placing it with his body (or some meaningful possession if the body is no longer available).</li>\n</ul>"
+		},
+		"Weakness (Hangin)": {
+			"name": "Weakness (Hangin)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Hangin&rsquo;):</strong>&nbsp;The only way to permanently destroy a judge is to hang &rsquo;im high. Otherwise it returns the following night, likely Hell-bent on revenge.</li>\n</ul>"
+		},
+		"Weakness (Head)": {
+			"name": "Weakness (Head)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\">\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Head):</strong>&nbsp;A Notice roll at &minus;1 for each &rsquo;glommed body (&minus;4 max) reveals which of a &rsquo;glom&rsquo;s many heads is the primary. If it&rsquo;s destroyed the entire thing dies instantly.</p>\n</li>\n</ul>"
+		},
+		"Weakness (Heart)": {
+			"name": "Weakness (Heart)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Heart):</strong>&nbsp;A nosferatu hit by any weapon with a Called Shot to the heart doesn&rsquo;t take extra damage per the Undead ability, but must make a Vigor roll versus the damage total. If successful, it takes damage normally. If it fails, it disintegrates to dust. Being lesser vampires, any hit to the heart, not just wood, can destroy them.</li>\n</ul>"
+		},
+		"Weakness (Holy Symbol)": {
+			"name": "Weakness (Holy Symbol)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Holy Symbol):</strong>&nbsp;A character may keep a vampire at bay by displaying a holy symbol. A vampire who wants to directly attack the victim must beat her in an opposed Spirit roll.</li>\n</ul>"
+		},
+		"Weakness (Hot Tallow)": {
+			"name": "Weakness (Hot Tallow)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Hot Tallow):</strong>&nbsp;A wendigo is killed instantly if someone pours hot tallow down its throat. We didn&rsquo;t say it was easy, but if a posse can figure out how to do it, the monster&rsquo;s screams and melts into a mess of steaming blood and bones.</li>\n</ul>"
+		},
+		"Weakness (Light)": {
+			"name": "Weakness (Light)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Light):</strong>&nbsp;Ghouls suffer a &minus;2 penalty to all Trait rolls in light brighter than a torch.</li>\n</ul>"
+		},
+		"Weakness (Magic)": {
+			"name": "Weakness (Magic)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Magic):</strong>&nbsp;A gaki takes full damage from magical attacks.</li>\n</ul>"
+		},
+		"Weakness (Metal Blades)": {
+			"name": "Weakness (Metal Blades)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Metal Blades):</strong>&nbsp;A sin eater can&rsquo;t regenerate damage from a blade, though it can heal naturally. If it&rsquo;s chopped limb from limb and each part buried in hallowed ground, the creature does not return to life.</li>\n</ul>"
+		},
+		"Weakness (Nerve Cluster)": {
+			"name": "Weakness (Nerve Cluster)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Nerve Cluster):</strong>&nbsp;Rattlers have a cluster of nerves deep in their mouth at the nexus of their tentacles. If hit with a Called Shot (&minus;6), damage ignores the rattler&rsquo;s Size modifier and Heavy Armor.</li>\n</ul>"
+		},
+		"Weakness (Running Water)": {
+			"name": "Weakness (Running Water)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Running Water):</strong>&nbsp;The easiest way to get rid of these tenacious critters is to cross running water. Jackalopes can&rsquo;t swim, so unless they find a bridge or some other way across, they hop off to find easier prey.</li>\n</ul>"
+		},
+		"Weakness (Spicy Heat)": {
+			"name": "Weakness (Spicy Heat)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Spicy Heat):</strong>&nbsp;The only way to get rid of a twister is to eat something incredibly spicy (or force-feed the host). Jalapenos make the nasty critters come crawling out in a few minutes where they can be easily squished.</li>\n</ul>"
+		},
+		"Weakness (Sunlight)": {
+			"name": "Weakness (Sunlight)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Sunlight):</strong>&nbsp;Nosferatu take 2d4 damage at the end of their turn if in direct sunlight. Concealing their bodies beneath thick blankets, coats, etc., reduces the damage by 4.</li>\n</ul>"
+		},
+		"Weakness (Water)": {
+			"name": "Weakness (Water)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Water):</strong>&nbsp;Oddly, splashing a duster with water causes 2d4 damage! Immersion in water kills it instantly.</li>\n</ul>"
+		},
+		"Weakness (Young)": {
+			"name": "Weakness (Young)",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weakness (Young):</strong>&nbsp;Only the Young can permanently destroy a boogeyman.</li>\n</ul>"
+		},
+		"Weather Control": {
+			"name": "Weather Control",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Weather Control:</strong>&nbsp;The creature can surround itself with an aura of biting cold or blazing heat the size of a Large Blast Template. Anyone else within is Distracted until the end of a turn after moving out of it.</li>\n</ul>"
+		},
+		"Whip Thin": {
+			"name": "Whip Thin",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Whip Thin:</strong>&nbsp;Bloodwires are difficult to hit thanks to their peculiar dimensions, so attack rolls suffer a &minus;4 penalty, in addition to any Scale penalties.</li>\n</ul>"
+		},
+		"Whirlwind": {
+			"name": "Whirlwind",
+			"description": "<ul style=\"box-sizing: border-box; user-select: text; margin-top: 0px; padding-left: 1.5ch; list-style: none; color: #191813; font-family: 'Book Antiqua'; font-size: 16px;\">\n<li style=\"box-sizing: border-box; user-select: text; padding: 0px 0px 0px 1ch;\"><strong style=\"box-sizing: border-box; user-select: text;\">Whirlwind:</strong>&nbsp;The dust devil is the size of a Medium Blast Template. Anyone inside the template takes Str+d4 in damage and is Distracted until the end of their next turn after moving out of it (this stacks with its Deflection). Goggles protect against the Distracted effect.</li>\n</ul>"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"label": "Deadlands Hindrances",
+	"mapping": {
+        "description": "data.description"
+    },
+	"entries": {
+		"#[CF_tempEntity]": {
+			"name": "#[CF_tempEntity]",
+			"description": ""
+		},
+		"Ailin'": {
+			"name": "慢性病",
+			"description": "<div class=\"deadlands-core\"> \n <h3>次要或主要</h3> \n <p>醫學在邊疆是一門初級科學，還有比嚴重鉛中毒更糟糕的死法。你的牛仔患有某種慢性疾病，而且至少到目前為止是無法治癒的。次要負贅意味著你在抵抗任何來源的@Compendium[swade-core-rules.swade-rules.Fatigue]{疲勞}時都要減去 1。如果是主要負贅，則要減去 2。</p> \n <p>在這種情況下，如果出現@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}，意味著事情會越來越糟。如果你的槍手有次要負贅，她就會變得更糟，她的負贅就會變成主要負贅。如果她已經有了主要負贅，那麼死神就會找上門來。好消息是你立即獲得了 @Compendium[swade-core-rules.swade-rules.Conviction]{信念點}。壞消息是你可以選擇你的英雄在該時段的死亡時間和方式。她可能會在榮耀的火焰中死去，也可能在平靜的山頂上被朋友包圍。當你的角色最終去世時，其他玩家角色會獲得 1 信念點，從他們堅強的同伴的勇敢死亡中汲取力量。</p> \n <p>你也可以通過花費 1 個@Compendium[swade-core-rules.swade-rules.Advancement]{升級}來解決你的負贅（主要負贅的版本為 2 個）。你應該和GM一起想出一個改善的敘事理由—在療養院的治療、奇蹟般的治癒、來自獨特捐贈者的輸血，或者其他一些基於故事的解釋，來說明角色的奇蹟般的改善。</p> \n </div>"
+		},
+		"Cursed": {
+			"name": "受詛咒",
+			"description": "<div class=\"deadlands-core\"> \n <p>每個人的衣櫃裡都有骷髏，但你的骷髏正試圖爬出來! 你的英雄做錯了事，要麼是因為過去的關係，要麼是因為黑暗的、不為人知的行為。雖然大多數人不知道或不關心，但那個傢伙肯定知道，而且他不太高興。對於每個有詛咒負贅的玩家角色，GM 開始時有一個額外的 @Compendium[swade-core-rules.swade-rules.Bennies]{助力點}! </p> \n </div>"
+		},
+		"Grim Servant O' Death": {
+			"name": "死神的冷酷僕從",
+			"description": "<div class=\"deadlands-core\"> \n <p>只有@Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{不羈角色}可以接受這個負贅，而且你不應該輕易這麼做，兄弟。 你的英雄是個殺手。他的家人很可能在推著菊花，他的敵人是蠕蟲的食物，甚至他的一些朋友身上的洞也很可疑，和他自己的射擊武器有著一樣的口徑。</p> \n <p>好消息是，你在每一次@Compendium[swade-core-rules.swade-rules.Dealing Damage]{傷害骰}上都會增加+1，無論是從@Compendium[swade-core-rules.swade-skills.Fighting]{戰鬥}，@Compendium[swade-core-rules.swade-skills.Shooting]{射擊}，@Compendium[swade-core-rules.swade-rules.Activation]{奧法技能骰}，甚至是使用@Compendium[swade-core-rules.swade-skills.Athletics]{運動}，以最不友好的方式向人們扔東西。</p> \n <p>壞消息是，你的抑鬱氣場會影響你。只要攻擊骰@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗}，就會打到最近的盟友身上，無論目標是否在火線上，這都會發生。也許兇手的槍手被推搡了，子彈跳彈了，或者目標被爆炸後的飛彈片波及。 其他玩家的角色總是首選，但在緊要關頭，任何一個友好的靈魂都可以被取代。</p> \n <p>當死神的猙獰僕人變得暴力時，即使是徒手攻擊也會擊中盟友。這可能需要一點想像力，但要麼武器從英雄的手中飛出，擊中他的朋友，要麼英雄移動到他以前的戰友旁邊，＂不小心＂ 擊中他。即使你使用的是微縮模型，戰鬥也比桌面上描述的更加流暢。</p> \n </div>"
+		},
+		"Heavy Sleeper": {
+			"name": "重度睡眠者",
+			"description": "<div class=\"deadlands-core\"> \n <p>來自地獄的雷雨也不能喚醒這個睡著的傢伙。一旦他睡著了，他必須進行@Compendium[swade-core-rules.swade-skills.Notice]{察覺}擲骰（-4）才能醒來。為了保持清醒，他的@Compendium[swade-core-rules.swade-rules.Trait Rolls]{活力擲骰}也會受到 -4 的懲罰。</p> \n </div>"
+		},
+		"Lyin' Eyes": {
+			"name": "不擅誆騙",
+			"description": "<div class=\"deadlands-core\"> \n <p>說謊對這個人來說並不容易。這聽起來很好，也很高尚，但在對付更邪惡的類型時往往會造成問題。有這種障礙的英雄在所有@Compendium[swade-core-rules.swade-skills.Intimidation]{威嚇}和@Compendium[swade-core-rules.swade-skills.Persuasion]{交涉}的擲骰上都會受到 -1 懲罰，即使是小小的謊言也必須說。</p> \n <p>更糟的是，如果你的英雄打算打牌賺錢，這個懲罰也適用於虛張聲勢。你的@Compendium[swade-core-rules.swade-skills.Gambling]{賭博}擲骰在撲克或法羅牌遊戲中也會有 -1 懲罰，伙計！</p> \n </div>"
+		},
+		"Night Terrors": {
+			"name": "夜夜驚魂",
+			"description": "<div class=\"deadlands-core\"> \n <p>說你有糟糕夢境只是一個嚴重的輕描淡寫。諾德之地是一個持續的噩夢。他像架子上的惡魔一樣輾轉反側，很可能讓他身邊的每個人都被他每晚的折磨吵醒。對他精神的反覆打擊導致他的意志力全面減弱。他的所有@Compendium[swade-core-rules.swade-rules.Trait Rolls]{心魂擲骰}會受到 -1 懲罰。</p> \n </div>"
+		},
+		"Old Ways Oath": {
+			"name": "老路誓言",
+			"description": "<div class=\"deadlands-core\"> \n <p>你的英雄已經承諾放棄現代技術以尊重自然之靈。那些忠於自己誓言的人可以在任何@Compendium[swade-core-rules.swade-rules.Trait Rolls]{心魂擲骰}上獲得一次免費重骰。</p> \n <p>然而，如果違反了協議，自然之靈會在 24 小時內收回這一優勢。如果宣誓者使用了由@Compendium[deadlands-core-rules.deadlands-rules.05 Ghost Rock]{鬼魂岩} 驅動的物品—一種對自然之靈有害的癌物質—他們的支持會停止一周。</p> \n </div>"
+		},
+		"Talisman": {
+			"name": "法寶",
+			"description": "<div class=\"deadlands-core\"> \n <h3>次要或主要</h3> \n <p>只有擁有@Compendium[deadlands-core-rules.deadlands-rules.03 New Edges]{奧法背景專長}的角色才能接受這種負贅。它代表了一種精神上對物理物品的依賴性，以使用他們的能力。任何看到用來施展力量的物品的人都能看出它的重要性。</p> \n <p>法寶可以是@Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{詐術師}的一副特定牌，@Compendium[deadlands-core-rules.deadlands-rules.08 Shamans]{薩滿}的一個藥袋，@Compendium[deadlands-core-rules.deadlands-rules.03 Blessed]{受祝者}的一件聖物，或者是@Compendium[deadlands-core-rules.deadlands-rules.04 Chi Masters]{氣功師}的一件獨特的武器。不管是什麼物品，如果她沒有帶在身上，她的所有@Compendium[swade-core-rules.swade-rules.Activation]{奧法技能擲骰}都會受到 -1 懲罰。如果是主要負贅，則受到 -2 懲罰。</p> \n <p>英雄可以替換丟失的法寶，但需要兩個遊戲週的時間來適應替換物，在此期間，英雄會受到相應的懲罰。</p> \n <p>請注意，@Compendium[deadlands-core-rules.deadlands-rules.07 Mad Scientists]{瘋狂科學家}需要一個選擇的小工具來行使奇術—一種實際的依賴，而不是一種精神上的依賴。因此，具有這種奧法背景的角色沒有資格接受這種負贅。</p> \n </div>"
+		},
+		"Tenderfoot": {
+			"name": "遜咖",
+			"description": "<div class=\"deadlands-core\"> \n <p>每一個小小的割傷和擦傷都會讓你的牛仔哭著找媽媽。只要他至少有一個@Compendium[swade-core-rules.swade-rules.Damage Effects]{損傷}，他的所有行動就會受到額外的 -1 懲罰（所以一個有 2 個損傷的英雄會受到 -3 懲罰，例如，儘管 -3 仍然是最大值）。有這種負贅的英雄不能使用@Compendium[deadlands-core-rules.deadlands-edges.Don't Get 'Im Riled!]{別惹我！} 專長。</p> \n </div>"
+		},
+		"Trouble Magnet": {
+			"name": "麻煩吸引者",
+			"description": "<div class=\"deadlands-core\"> \n <p>對這位英雄來說，事情從來都是一帆風順的。作為一個次要負贅，每當角色擲出@Compendium[swade-core-rules.swade-rules.Trait Rolls]{大失敗} 時，後果就會在某種程度上微妙地惡化，由GM決定。一個英雄不只是在試圖潛入美軍要塞時被發現，有人認出了她的臉。一個牛仔不只是在@Compendium[swade-core-rules.swade-skills.Intimidation]{威嚇}中失敗，目標也有朋友。或者一個失敗的@Compendium[swade-core-rules.swade-rules.Attacks]{攻擊骰}導致牛仔的武器也壞了。</p> \n <p>主要負贅有不同的效果。任何時候當 GM 必須選擇一個 ＂隨機角色＂ 來被擊中、攻擊或受到其他負面的影響—那就是這個可憐鬼。</p> \n </div>"
+		}
+	}
+}
